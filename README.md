@@ -53,9 +53,12 @@ The application form dynamically reconfigures to ask only for the specific infor
 
 The application is pre-compiled into a standalone APK ready for installation on any Android device running Android 7.0 (Nougat, API 24) or higher.
 
-### 📥 Option 1: Direct APK from Repository
-- You can directly download the APK file located in this repository at:
-  👉 **[`release/MoTA-Scholarship-Portal.apk`](release/MoTA-Scholarship-Portal.apk)** (File size: ~6.0 MB)
+### 📥 Option 1: 1-Click Direct Download Link
+Click this link to download the APK directly without opening the GitHub file viewer:
+👉 **[Click Here to Download MoTA-Scholarship-Portal.apk](https://github.com/RushilAmreliya/MoTa/raw/main/release/MoTA-Scholarship-Portal.apk)** (File size: ~6.05 MB)
+
+Or in the GitHub file viewer, click the **Download raw file (⬇)** button or **View raw** link.
+
 - Transfer it to your Android device or download it directly via your mobile browser.
 - Tap the `.apk` file and select **Install** (allow *Install unknown apps* for your browser/file manager if prompted).
 - The app runs immediately without any extra setup or backend dependencies!
@@ -63,6 +66,7 @@ The application is pre-compiled into a standalone APK ready for installation on 
 ### ⚙️ Option 2: Automated GitHub Releases / Actions Artifact
 - Every push to GitHub runs the [Build Android APK workflow](.github/workflows/build-apk.yml).
 - You can download the latest generated APK directly under the **Actions** tab -> **Artifacts** -> **`MoTA-Scholarship-Portal-APK`**.
+- Or via GitHub Releases: [Releases Page](https://github.com/RushilAmreliya/MoTa/releases)
 
 ---
 
