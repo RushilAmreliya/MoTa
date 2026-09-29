@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- App & Ministry Branding -->
+    <string name="app_name">MoTA స్కాలర్‌షిప్</string>
+    <string name="mota_full_title">గిరిజన వ్యవహారాల మంత్రిత్వ శాఖ</string>
+    <string name="mota_hindi_title">గిరిజన వ్యవహారాల మంత్రిత్వ శాఖ</string>
+    <string name="mota_subtitle">భారత ప్రభుత్వం • ఏకీకృత స్కాలర్‌షిప్ పోర్టల్</string>
+    <string name="mota_dashboard_title">MoTA ఏకీకృత డాష్‌బోర్డ్</string>
+    <string name="mota_dashboard_subtitle">గిరిజన వ్యవహారాల మంత్రిత్వ శాఖ • భారత ప్రభుత్వం</string>
+    <string name="mota_apply_title">స్కాలర్‌షిప్ కోసం దరఖాస్తు చేసుకోండి</string>
+    <string name="mota_apply_subtitle">గిరిజన వ్యవహారాల మంత్రిత్వ శాఖ • ప్రత్యక్ష పథకం పోర్టల్</string>
+
+    <!-- Language Selector -->
+    <string name="select_preferred_language">భాషను ఎంచుకోండి / Select Language</string>
+    <string name="language_selection_hint">పోర్టల్ కోసం మీ ప్రాధాన్య భాషను ఎంచుకోండి</string>
+    <string name="language_changed_toast">భాష %s కు మార్చబడింది</string>
+
+    <!-- Login Page -->
+    <string name="beneficiary_login_title">లబ్ధిదారుని లాగిన్</string>
+    <string name="beneficiary_login_subtitle">మీ నమోదిత పేరు మరియు 12 అంకెల ఆధార్ నంబర్‌తో ప్రవేశించండి</string>
+    <string name="hint_full_name">ఆధార్ ప్రకారం పూర్తి పేరు</string>
+    <string name="hint_aadhaar">12 అంకెల ఆధార్ సంఖ్య</string>
+    <string name="btn_login">ధృవీకరించి డాష్‌బోర్డ్‌లోకి ప్రవేశించండి</string>
+    <string name="error_enter_name">దయచేసి పూర్తి పేరు నమోదు చేయండి</string>
+    <string name="error_enter_aadhaar">దయచేసి ఆధార్ సంఖ్య నమోదు చేయండి</string>
+    <string name="error_aadhaar_length">ఆధార్ సరిగ్గా 12 అంకెలు ఉండాలి</string>
+    <string name="auth_failed_msg">ధృవీకరణ విఫలమైంది: డేటాబేస్‌లో వివరాలు కనుగొనబడలేదు. ధృవీకరించబడిన గిరిజన విద్యార్థులకు మాత్రమే అనుమతి ఉంది.</string>
+    <string name="access_denied_toast">ప్రవేశం నిరాకరించబడింది: నమోదుకాని విద్యార్థి</string>
+    <string name="demo_credentials_title">డెమో నమోదిత లబ్ధిదారులు (ఆటో-ఫిల్ చేయడానికి నొక్కండి)</string>
+    <string name="demo_credentials_subtitle">అధికారిక డేటాసెట్‌లోని పరీక్ష ఖాతాలు:</string>
+    <string name="fresh_applicant_badge">⭐ [కొత్త దరఖాస్తుదారు] </string>
+    <string name="loaded_credentials_toast">%s వివరాలు లోడ్ చేయబడ్డాయి</string>
+
+    <!-- Dashboard -->
+    <string name="sign_out">లాగ్ అవుట్</string>
+    <string name="dbt_enabled">✓ DBT ప్రారంభించబడింది: బ్యాంక్: %1$s (%2$s) | NPCI ఆధార్ బ్రిడ్జ్ యాక్టివ్</string>
+    <string name="dbt_failed">⚠ DBT చెల్లింపు విఫలమైంది: %s</string>
+    <string name="remediation_step">పరిష్కార చర్య: %s</string>
+    <string name="unified_applications_title">ఏకీకృత దరఖాస్తులు</string>
+    <string name="unified_applications_subtitle">NSP, SFMP మరియు NOS పోర్టల్‌లలో ట్రాకింగ్</string>
+    <string name="btn_apply_scholarship">+ స్కాలర్‌షిప్ దరఖాస్తు</string>
+    <string name="empty_applications">ఇంకా ఎలాంటి దరఖాస్తులు సమర్పించబడలేదు.\nకొత్త దరఖాస్తు కోసం పైన \'+ స్కాలర్‌షిప్ దరఖాస్తు\' నొక్కండి.</string>
+    <string name="digital_wallet_title">డిజిటల్ డాక్యుమెంట్ వాలెట్ (DigiLocker)</string>
+    <string name="zero_upload_model">జీరో-అప్‌లోడ్ మోడల్</string>
+    <string name="digital_wallet_subtitle">ప్రీ-మెట్రిక్, పోస్ట్-మెట్రిక్ &amp; ఫెలోషిప్‌ల కోసం స్వయం-ధృవీకరించబడిన పత్రాలు</string>
+    <string name="empty_documents">పత్రాలు ఏవీ అప్‌లోడ్ చేయలేదు.\nదరఖాస్తు సమర్పించిన తర్వాత మీ సర్టిఫికెట్లు ఇక్కడ నిల్వ చేయబడతాయి.</string>
+    <string name="data_refreshed_toast">దరఖాస్తు మరియు పత్రాలు విజయవంతంగా భద్రపరచబడ్డాయి!</string>
+    <string name="category_prefix">వర్గం: %1$s • %2$s • పుట్టిన తేదీ: %3$s</string>
+    <string name="pvtg_prefix">\nPVTG: %s</string>
+    <string name="institution_prefix">సంస్థ: %1$s (%2$s)</string>
+    <string name="location_prefix">ప్రాంతం: %1$s, %2$s • మొబైల్: %3$s</string>
+
+    <!-- Apply Scholarship Page -->
+    <string name="applicant_profile_title">దరఖాస్తుదారు వివరాలు (ఆధార్ OTR ప్రీ-ఫిల్డ్)</string>
+    <string name="step1_title">దశ 1: MoTA స్కాలర్‌షిప్ పథకాన్ని ఎంచుకోండి *</string>
+    <string name="step1_subtitle">మీ అర్హతకు తగిన స్కాలర్‌షిప్ పథకాన్ని ఎంచుకోండి:</string>
+    <string name="scheme_pre_matric">1. ST విద్యార్థుల కోసం ప్రీ-మెట్రిక్ స్కాలర్‌షిప్ (9-10 తరగతులు)</string>
+    <string name="scheme_post_matric">2. ST విద్యార్థుల కోసం పోస్ట్-మెట్రిక్ స్కాలర్‌షిప్ (11వ తరగతి నుండి PG వరకు)</string>
+    <string name="scheme_top_class">3. టాప్ క్లాస్ విద్యా పథకం (IIT/NIT/IIM/AIIMS వంటి సంస్థలు)</string>
+    <string name="scheme_nfst">4. ఉన్నత విద్య కోసం జాతీయ ఫెలోషిప్ (NFST M.Phil/Ph.D)</string>
+    <string name="scheme_nos">5. నేషనల్ ఓవర్సీస్ స్కాలర్‌షిప్ (టాప్ 500 విదేశీ విశ్వవిద్యాలయాలు)</string>
+    <string name="benefit_prefix">ప్రయోజనం: %s</string>
+    <string name="eligibility_prefix">అర్హత: %1$s\nలక్ష్యం: %2$s</string>
+    <string name="registry_prefix">ధృవీకరణ గేట్‌వే: %1$s • పోర్టల్: %2$s</string>
+
+    <string name="step2_title">దశ 2: పథకం సంబంధిత వివరాలు</string>
+    <string name="step2_subtitle">ఈ పథకానికి అవసరమైన విద్యా మరియు అర్హత డేటాను నమోదు చేయండి:</string>
+    <string name="hint_academic_year">విద్యా సంవత్సరం (ఉదా. 2026-2027) *</string>
+    <string name="hint_family_income">వార్షిక కుటుంబ ఆదాయం ₹ లలో *</string>
+    <string name="hint_udise_code">పాఠశాల UDISE+ కోడ్</string>
+    <string name="hint_class_level">ప్రస్తుత తరగతి (9వ లేదా 10వ తరగతి)</string>
+    <string name="hint_hostel_type">హాస్టలర్ లేదా డే స్కాలర్?</string>
+    <string name="hint_post_matric_aishe">కళాశాల AISHE కోడ్</string>
+    <string name="hint_course_year">కోర్సు &amp; చదువుతున్న సంవత్సరం</string>
+    <string name="hint_apaar_id">APAAR విద్యార్థి ID / ABC ID</string>
+    <string name="hint_top_institute_name">అగ్రశ్రేణి సంస్థ పేరు</string>
+    <string name="hint_entrance_rank">ప్రవేశ పరీక్ష &amp; AIR ర్యాంక్</string>
+    <string name="hint_tuition_claim">వార్షిక ట్యూషన్ ఫీజు క్లెయిమ్ (₹ లలో)</string>
+    <string name="hint_net_roll_no">UGC-NET / CSIR-NET రోల్ నంబర్</string>
+    <string name="hint_research_topic">Ph.D / M.Phil పరిశోధన అంశం</string>
+    <string name="hint_phd_reg_date">Ph.D నమోదు తేదీ (dd-mm-yyyy)</string>
+    <string name="hint_foreign_uni">విదేశీ విశ్వవిద్యాలయం పేరు</string>
+    <string name="hint_foreign_course">విదేశీ కోర్సు స్థాయి మరియు సబ్జెక్ట్</string>
+    <string name="hint_passport_num">పాస్‌పోర్ట్ నంబర్</string>
+
+    <string name="step3_title">దశ 3: పత్రాల ధృవీకరణ &amp; అప్‌లోడ్ *</string>
+    <string name="step3_subtitle">ఈ పథకం కోసం అవసరమైన సర్టిఫికెట్ వివరాలను సమర్పించండి:</string>
+    <string name="doc1_caste_title">1. ST / PVTG కుల ధృవీకరణ పత్రం *</string>
+    <string name="hint_caste_cert_no">కుల ధృవీకరణ పత్రం సంఖ్య</string>
+    <string name="btn_upload_pdf">PDF అప్‌లోడ్ చేయండి</string>
+    <string name="no_file_attached">ఫైల్ ఏదీ ఎంచుకోలేదు</string>
+    <string name="doc_income_pre_matric">2. వార్షిక కుటుంబ ఆదాయ ధృవీకరణ పత్రం (&lt;= ₹ 2.50L) *</string>
+    <string name="doc_acad_pre_matric">3. మునుపటి తరగతి మార్కుల జాబితా లేదా బోనఫైడ్ *</string>
+    <string name="doc_income_post_matric">2. వార్షిక కుటుంబ ఆదాయ ధృవీకరణ పత్రం (&lt;= ₹ 2.50L) *</string>
+    <string name="doc_acad_post_matric">3. 10వ తరగతి మార్కుల జాబితా &amp; APAAR రికార్డు *</string>
+    <string name="doc_income_top_class">2. ఆదాయ ధృవీకరణ పత్రం (&lt;= ₹ 6.00L) *</string>
+    <string name="doc_acad_top_class">3. ప్రవేశ లేఖ / ఫీజు నిర్మాణం *</string>
+    <string name="doc_income_nfst">2. Ph.D నమోదు &amp; సూపర్‌వైజర్ బోనఫైడ్ *</string>
+    <string name="doc_acad_nfst">3. UGC-NET / JRF అర్హత స్కోర్‌కార్డ్ *</string>
+    <string name="doc_income_nos">2. మొత్తం కుటుంబ ఆదాయ ధృవీకరణ పత్రం (&lt;= ₹ 8.00 Lakh) *</string>
+    <string name="doc_acad_nos">3. విదేశీ విశ్వవిద్యాలయం ఆఫర్ లెటర్ &amp; పాస్‌పోర్ట్ *</string>
+
+    <string name="digilocker_consent_text">పైన పేర్కొన్న వివరాలన్నీ వాస్తవమని మరియు DigiLocker/APAAR ద్వారా ధృవీకరణకు నేను అంగీకరిస్తున్నాను.</string>
+    <string name="digilocker_consent_subtext">గిరిజన వ్యవహారాల మంత్రిత్వ శాఖ నిబంధనలు &amp; DPDP చట్టం 2023 ప్రకారం. తప్పుడు సమాచారానికి దరఖాస్తు రద్దు చేయబడుతుంది.</string>
+    <string name="dedup_existing_app">గమనిక: ఈ పథకం కోసం ఇప్పటికే దరఖాస్తు సమర్పించబడింది.</string>
+    <string name="dedup_conflict_fellowship">నియమం: సక్రియ ఫెలోషిప్ ఉన్నందున ప్రీ/పోస్ట్-మెట్రిక్ దరఖాస్తు పరిమితం చేయబడింది.</string>
+    <string name="btn_submit_application">దరఖాస్తును సమర్పించండి</string>
+
+    <!-- Dialogs & Validations -->
+    <string name="warn_select_scheme">దయచేసి ఒక పథకాన్ని ఎంచుకోండి</string>
+    <string name="warn_enter_ay">దయచేసి విద్యా సంవత్సరాన్ని నమోదు చేయండి</string>
+    <string name="warn_enter_income">దయచేసి కుటుంబ ఆదాయాన్ని నమోదు చేయండి</string>
+    <string name="warn_enter_caste_no">దయచేసి కుల ధృవీకరణ సంఖ్యను నమోదు చేయండి</string>
+    <string name="warn_select_caste_file">దయచేసి కుల ధృవీకరణ ఫైల్‌ను ఎంచుకోండి</string>
+    <string name="warn_enter_income_no">దయచేసి ఆదాయ ధృవీకరణ సంఖ్యను నమోదు చేయండి</string>
+    <string name="warn_select_income_file">దయచేసి ఆదాయ ధృవీకరణ ఫైల్‌ను ఎంచుకోండి</string>
+    <string name="warn_enter_doc3_no">దయచేసి 3వ పత్రం సంఖ్యను నమోదు చేయండి</string>
+    <string name="warn_select_doc3_file">దయచేసి విద్యా పత్రం ఫైల్‌ను ఎంచుకోండి</string>
+    <string name="warn_check_consent">దయచేసి డిక్లరేషన్ చెక్‌బాక్స్‌ను టిక్ చేయండి</string>
+    <string name="submission_success_title">✅ దరఖాస్తు సమర్పించబడింది!</string>
+    <string name="submission_success_msg">గిరిజన వ్యవహారాల మంత్రిత్వ శాఖ పోర్టల్:\n\n• పథకం: %1$s\n• దరఖాస్తు ID: %2$s\n• స్థితి: సమర్పించబడింది — సంస్థ ధృవీకరణ పెండింగ్‌లో ఉంది\n• 3 పత్రాలు భద్రపరచబడ్డాయి\n\nడాష్‌బోర్డ్‌లో మీరు దీన్ని చూడవచ్చు.</string>
+    <string name="btn_go_to_dashboard">డాష్‌బోర్డ్‌కు వెళ్లండి</string>
+
+    <!-- Adapters & Cards -->
+    <string name="lifecycle_progress">6-దశల పురోగతి:</string>
+    <string name="current_stage_label">ప్రస్తుత దశ: </string>
+    <string name="sanction_amount_label">మంజూరైన మొత్తం: </string>
+    <string name="ref_id_label">రిఫరెన్స్ ID: %1$s (%2$s)</string>
+    <string name="app_meta_format">దరఖాస్తు ID: %1$s • విద్యా సంవత్సరం %2$s • %3$s</string>
+    <string name="zero_reupload_badge">♻ రీ-అప్‌లోడ్ రహిత వినియోగం</string>
+    <string name="cert_id_prefix">సర్టిఫికెట్ ID: %s</string>
+    <string name="authority_prefix">అధికార సంస్థ: %1$s • తేదీ: %2$s</string>
+    <string name="doc_stored_in_app">💾 యాప్ యొక్క సురక్షిత వాల్ట్‌లో నిల్వ చేయబడింది</string>
+    <string name="btn_view_document">👁 పత్రం చూడండి</string>
+
+    <!-- Lifecycle 6 Stages -->
+    <string name="stage_submission">సమర్పించబడింది</string>
+    <string name="stage_inst_verification">సంస్థ ధృవీకరణ</string>
+    <string name="stage_dist_approval">జిల్లా/రాష్ట్ర ఆమోదం</string>
+    <string name="stage_mota_sanction">MoTA మంజూరు</string>
+    <string name="stage_pfms_dbt">PFMS/SFMP DBT తయారీ</string>
+    <string name="stage_bank_credit">బ్యాంకు జమ</string>
+</resources>

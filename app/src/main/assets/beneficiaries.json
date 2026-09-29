@@ -1,0 +1,397 @@
+[
+  {
+    "fullName": "Kavita Marandi",
+    "aadhaarNumber": "789012345678",
+    "dob": "2006-03-18",
+    "gender": "Female",
+    "category": "ST",
+    "isPvtg": false,
+    "pvtgCommunityName": "",
+    "householdId": "HH-JH-DUMKA-052",
+    "otrId": "OTR-JH-2026-11892",
+    "apaarId": "APAAR-3399-7711-2044",
+    "mobileNumber": "+91 97712 34567",
+    "state": "Jharkhand",
+    "district": "Dumka",
+    "institutionName": "Sido Kanhu Murmu University, Dumka",
+    "aisheUdiseCode": "AISHE-U-0208",
+    "bankName": "Bank of India",
+    "accountMasked": "•••• •••• 5691",
+    "npciMapped": true,
+    "npciFailureReason": "",
+    "npciRemediation": "",
+    "documents": [],
+    "applications": []
+  },
+  {
+    "fullName": "Birsa Munda",
+    "aadhaarNumber": "234567890123",
+    "dob": "2004-11-15",
+    "gender": "Male",
+    "category": "ST",
+    "isPvtg": false,
+    "pvtgCommunityName": "",
+    "householdId": "HH-JH-RANCHI-001",
+    "otrId": "OTR-JH-2026-90412",
+    "apaarId": "APAAR-8829-1092-4411",
+    "mobileNumber": "+91 98765 43210",
+    "state": "Jharkhand",
+    "district": "Ranchi",
+    "institutionName": "Birsa Institute of Technology, Sindri",
+    "aisheUdiseCode": "AISHE-U-0205",
+    "bankName": "State Bank of India",
+    "accountMasked": "•••• •••• 4102",
+    "npciMapped": true,
+    "npciFailureReason": "",
+    "npciRemediation": "",
+    "documents": [
+      {
+        "docId": "DOC-ST-001",
+        "title": "ST Caste Certificate",
+        "authority": "Jharkhand e-District / DigiLocker",
+        "docNumber": "JH/ST/2022/99042",
+        "status": "Digitally Verified",
+        "issueDate": "14-08-2022",
+        "isReused": true
+      },
+      {
+        "docId": "DOC-INC-001",
+        "title": "Annual Household Income Certificate",
+        "authority": "Tehsildar Office, Ranchi / DigiLocker",
+        "docNumber": "JH/INC/2026/10294",
+        "status": "Valid (< ₹ 2.50 Lakh)",
+        "issueDate": "04-05-2026",
+        "isReused": false
+      },
+      {
+        "docId": "DOC-APAAR-001",
+        "title": "Academic Marks & ABC Transcript",
+        "authority": "Academic Bank of Credits / APAAR",
+        "docNumber": "ABC-8829-1092-4411",
+        "status": "Auto-Verified",
+        "issueDate": "10-06-2026",
+        "isReused": true
+      }
+    ],
+    "applications": [
+      {
+        "applicationId": "APP-2026-POST-8910",
+        "schemeCode": "POST_MATRIC",
+        "schemeTitle": "Post-Matric Scholarship for ST Students",
+        "academicYear": "2026-2027",
+        "sourceSystem": "NSP / MoTA Unified",
+        "stage": "MoTA Sanction",
+        "status": "APPROVED",
+        "verificationBadges": ["Aadhaar e-KYC Verified", "DigiLocker Caste Certified", "AISHE Institute Verified"],
+        "dbtStatus": "SANCTIONED",
+        "amountInr": "₹ 48,000 / year",
+        "pfmsTransactionId": "PFMS-TXN-20260928-883",
+        "remarks": "Sanction order generated. Disbursal scheduled to Aadhaar-seeded account."
+      },
+      {
+        "applicationId": "APP-2024-PRE-4120",
+        "schemeCode": "PRE_MATRIC",
+        "schemeTitle": "Pre-Matric Scholarship for ST Students (Class IX-X)",
+        "academicYear": "2024-2025",
+        "sourceSystem": "NSP",
+        "stage": "Bank Account Credit",
+        "status": "DISBURSED",
+        "verificationBadges": ["DigiLocker Verified", "UDISE+ School Match"],
+        "dbtStatus": "PROCESSED",
+        "amountInr": "₹ 12,000 / year",
+        "pfmsTransactionId": "PFMS-TXN-20241012-102",
+        "remarks": "Completed successfully."
+      }
+    ]
+  },
+  {
+    "fullName": "Salomi Munda",
+    "aadhaarNumber": "234567890124",
+    "dob": "2009-08-12",
+    "gender": "Female",
+    "category": "ST",
+    "isPvtg": false,
+    "pvtgCommunityName": "",
+    "householdId": "HH-JH-RANCHI-001",
+    "otrId": "OTR-JH-2026-90413",
+    "apaarId": "APAAR-8829-1092-4412",
+    "mobileNumber": "+91 98765 43210",
+    "state": "Jharkhand",
+    "district": "Ranchi",
+    "institutionName": "Government High School, Morabadi, Ranchi",
+    "aisheUdiseCode": "UDISE-20140200109",
+    "bankName": "State Bank of India",
+    "accountMasked": "•••• •••• 4105",
+    "npciMapped": true,
+    "npciFailureReason": "",
+    "npciRemediation": "",
+    "documents": [
+      {
+        "docId": "DOC-ST-002",
+        "title": "ST Caste Certificate (Family Linked)",
+        "authority": "DigiLocker (Carried from Household)",
+        "docNumber": "JH/ST/2022/99042",
+        "status": "Reused & Verified",
+        "issueDate": "14-08-2022",
+        "isReused": true
+      },
+      {
+        "docId": "DOC-UDISE-002",
+        "title": "UDISE+ Class IX Enrolment Card",
+        "authority": "Department of School Education",
+        "docNumber": "UDISE-20140200109-IX-34",
+        "status": "Auto-Verified",
+        "issueDate": "15-07-2026",
+        "isReused": false
+      }
+    ],
+    "applications": [
+      {
+        "applicationId": "APP-2026-PRE-9021",
+        "schemeCode": "PRE_MATRIC",
+        "schemeTitle": "Pre-Matric Scholarship for ST Students (Class IX)",
+        "academicYear": "2026-2027",
+        "sourceSystem": "NSP / MoTA Unified",
+        "stage": "Institute Verification",
+        "status": "IN_PROGRESS",
+        "verificationBadges": ["UDISE+ School Attested", "Aadhaar e-KYC Verified"],
+        "dbtStatus": "PENDING_VERIFICATION",
+        "amountInr": "₹ 12,000 / year",
+        "pfmsTransactionId": "PFMS-TXN-20260927-441",
+        "remarks": "Application forwarded to Headmaster for online verification."
+      }
+    ]
+  },
+  {
+    "fullName": "Sunita Marandi",
+    "aadhaarNumber": "345678901234",
+    "dob": "2001-04-20",
+    "gender": "Female",
+    "category": "ST (PVTG)",
+    "isPvtg": true,
+    "pvtgCommunityName": "Birhor (Particularly Vulnerable Tribal Group)",
+    "householdId": "HH-OD-MAYUR-044",
+    "otrId": "OTR-OD-2026-44018",
+    "apaarId": "APAAR-9931-4011-5502",
+    "mobileNumber": "+91 94371 88201",
+    "state": "Odisha",
+    "district": "Mayurbhanj",
+    "institutionName": "North Orissa University, Baripada",
+    "aisheUdiseCode": "AISHE-U-0361",
+    "bankName": "Punjab National Bank",
+    "accountMasked": "•••• •••• 7719",
+    "npciMapped": true,
+    "npciFailureReason": "",
+    "npciRemediation": "",
+    "documents": [
+      {
+        "docId": "DOC-PVTG-001",
+        "title": "PVTG Certificate (Birhor Community)",
+        "authority": "Odisha e-District / DigiLocker",
+        "docNumber": "OD/PVTG/2021/44910",
+        "status": "Digitally Signed",
+        "issueDate": "20-03-2021",
+        "isReused": true
+      },
+      {
+        "docId": "DOC-NET-001",
+        "title": "UGC-NET / JRF Scorecard",
+        "authority": "National Testing Agency (NTA)",
+        "docNumber": "NTA-UGC-2025-88412",
+        "status": "Roll No. Auto-Verified",
+        "issueDate": "12-01-2026",
+        "isReused": false
+      }
+    ],
+    "applications": [
+      {
+        "applicationId": "APP-2026-NFST-0194",
+        "schemeCode": "NFST",
+        "schemeTitle": "National Fellowship for Higher Education of ST Students",
+        "academicYear": "2026-2027",
+        "sourceSystem": "SFMP - Canara Bank",
+        "stage": "Institute Verification",
+        "status": "IN_PROGRESS",
+        "verificationBadges": ["Aadhaar Verified", "PVTG Priority Track", "UGC-NET Qualified"],
+        "dbtStatus": "PENDING_VERIFICATION",
+        "amountInr": "₹ 31,000 / month + HRA",
+        "pfmsTransactionId": "SFMP-REF-2026-0049",
+        "remarks": "Under institutional scrutiny by Nodal Officer."
+      }
+    ]
+  },
+  {
+    "fullName": "Kiran Kumar Jamatia",
+    "aadhaarNumber": "456789012345",
+    "dob": "2003-08-10",
+    "gender": "Male",
+    "category": "ST",
+    "isPvtg": false,
+    "pvtgCommunityName": "",
+    "householdId": "HH-TR-GOMATI-092",
+    "otrId": "OTR-TR-2026-67123",
+    "apaarId": "APAAR-1144-8833-2211",
+    "mobileNumber": "+91 87941 22345",
+    "state": "Tripura",
+    "district": "Gomati",
+    "institutionName": "National Institute of Technology Agartala",
+    "aisheUdiseCode": "AISHE-U-0542",
+    "bankName": "Canara Bank",
+    "accountMasked": "•••• •••• 9032",
+    "npciMapped": true,
+    "npciFailureReason": "",
+    "npciRemediation": "",
+    "documents": [
+      {
+        "docId": "DOC-ST-003",
+        "title": "Tripura ST Certificate (Jamatia)",
+        "authority": "Tripura e-District / DigiLocker",
+        "docNumber": "TR/ST/2023/12049",
+        "status": "Digitally Verified",
+        "issueDate": "19-09-2023",
+        "isReused": true
+      },
+      {
+        "docId": "DOC-JEE-001",
+        "title": "JEE Main Rank & Allotment Letter",
+        "authority": "JoSAA / NTA Portal",
+        "docNumber": "JOSAA-2023-NIT-AG-14",
+        "status": "Verified via AISHE",
+        "issueDate": "01-08-2023",
+        "isReused": true
+      }
+    ],
+    "applications": [
+      {
+        "applicationId": "APP-2026-TOP-1102",
+        "schemeCode": "TOP_CLASS",
+        "schemeTitle": "Top Class Education Scheme for ST Students",
+        "academicYear": "2026-2027",
+        "sourceSystem": "NSP / MoTA Unified",
+        "stage": "PFMS/SFMP DBT Generation",
+        "status": "APPROVED",
+        "verificationBadges": ["DigiLocker Income Verified", "Top Class Institute Enrolled", "Full Fee Cover"],
+        "dbtStatus": "SENT_TO_PFMS",
+        "amountInr": "₹ 2,20,000 / year (Full Tuition + Living Allowance)",
+        "pfmsTransactionId": "PFMS-TXN-20260925-519",
+        "remarks": "Payment file transmitted to PFMS portal."
+      }
+    ]
+  },
+  {
+    "fullName": "Anjali Gond",
+    "aadhaarNumber": "567890123456",
+    "dob": "2000-02-14",
+    "gender": "Female",
+    "category": "ST",
+    "isPvtg": false,
+    "pvtgCommunityName": "",
+    "householdId": "HH-MP-DINDORI-033",
+    "otrId": "OTR-MP-2026-10294",
+    "apaarId": "APAAR-7744-2299-6611",
+    "mobileNumber": "+91 75529 11099",
+    "state": "Madhya Pradesh",
+    "district": "Dindori",
+    "institutionName": "University of Oxford, United Kingdom",
+    "aisheUdiseCode": "NOS-INTL-0081",
+    "bankName": "Bank of Baroda",
+    "accountMasked": "•••• •••• 1284",
+    "npciMapped": true,
+    "npciFailureReason": "",
+    "npciRemediation": "",
+    "documents": [
+      {
+        "docId": "DOC-NOS-001",
+        "title": "Unconditional Offer Letter (Oxford)",
+        "authority": "University of Oxford Registry",
+        "docNumber": "OX-ADMIT-2026-8921",
+        "status": "DVIG Authenticated",
+        "issueDate": "15-05-2026",
+        "isReused": false
+      },
+      {
+        "docId": "DOC-VISA-001",
+        "title": "UK Student Visa & Biometric BRP",
+        "authority": "UK Visas and Immigration (UKVI)",
+        "docNumber": "UK-VISA-2026-77123",
+        "status": "Embassy Cleared",
+        "issueDate": "22-07-2026",
+        "isReused": false
+      }
+    ],
+    "applications": [
+      {
+        "applicationId": "APP-2026-NOS-0033",
+        "schemeCode": "NOS",
+        "schemeTitle": "National Overseas Scholarship (NOS) for ST Candidates",
+        "academicYear": "2026-2027",
+        "sourceSystem": "Standalone NOS Portal",
+        "stage": "MoTA Sanction",
+        "status": "APPROVED",
+        "verificationBadges": ["Unconditional Offer Letter Verified", "Visa Cleared", "MoTA Apex Board Approved"],
+        "dbtStatus": "SANCTIONED",
+        "amountInr": "£ 18,500 / year + Tuition Fee & Contingency",
+        "pfmsTransactionId": "NOS-DISB-2026-0012",
+        "remarks": "First installment sanctioned for international wire transfer."
+      }
+    ]
+  },
+  {
+    "fullName": "Rameshwar Uraon",
+    "aadhaarNumber": "678901234567",
+    "dob": "2008-06-25",
+    "gender": "Male",
+    "category": "ST",
+    "isPvtg": false,
+    "pvtgCommunityName": "",
+    "householdId": "HH-CG-BASTAR-101",
+    "otrId": "OTR-CG-2026-88123",
+    "apaarId": "APAAR-5511-9988-3344",
+    "mobileNumber": "+91 77140 98112",
+    "state": "Chhattisgarh",
+    "district": "Bastar",
+    "institutionName": "Eklavya Model Residential School (EMRS), Bastar",
+    "aisheUdiseCode": "UDISE-22140100412",
+    "bankName": "Union Bank of India",
+    "accountMasked": "•••• •••• 6543",
+    "npciMapped": false,
+    "npciFailureReason": "Aadhaar not seeded with bank account (NPCI mapper inactive)",
+    "npciRemediation": "Submit Aadhaar Seeding Consent Form at Union Bank of India branch to activate DBT.",
+    "documents": [
+      {
+        "docId": "DOC-EMRS-001",
+        "title": "EMRS Bastar Bonafide Certificate",
+        "authority": "UDISE+ / Principal EMRS Bastar",
+        "docNumber": "EMRS-BST-2026-991",
+        "status": "UDISE+ Matched",
+        "issueDate": "01-07-2026",
+        "isReused": false
+      },
+      {
+        "docId": "DOC-ST-004",
+        "title": "Chhattisgarh ST Certificate (Uraon)",
+        "authority": "CG e-District / DigiLocker",
+        "docNumber": "CG/ST/2021/88029",
+        "status": "Verified",
+        "issueDate": "11-09-2021",
+        "isReused": true
+      }
+    ],
+    "applications": [
+      {
+        "applicationId": "APP-2026-PRE-5541",
+        "schemeCode": "PRE_MATRIC",
+        "schemeTitle": "Pre-Matric Scholarship for ST Students",
+        "academicYear": "2026-2027",
+        "sourceSystem": "NSP / MoTA Unified",
+        "stage": "PFMS/SFMP DBT Generation",
+        "status": "DEFICIENT",
+        "verificationBadges": ["UDISE+ Verified", "Caste Certified"],
+        "dbtStatus": "FAILED",
+        "amountInr": "₹ 12,000 / year",
+        "pfmsTransactionId": "PFMS-TXN-20260920-302",
+        "remarks": "Action Required: NPCI mapper inactive. Please seed Aadhaar with your bank branch."
+      }
+    ]
+  }
+]

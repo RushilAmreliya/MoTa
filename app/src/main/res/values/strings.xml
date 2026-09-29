@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- App & Ministry Branding -->
+    <string name="app_name">MoTA Scholarship</string>
+    <string name="mota_full_title">Ministry of Tribal Affairs</string>
+    <string name="mota_hindi_title">जनजातीय कार्य मंत्रालय</string>
+    <string name="mota_subtitle">Government of India • Unified Scholarship Portal</string>
+    <string name="mota_dashboard_title">MoTA Scholarships</string>
+    <string name="mota_dashboard_subtitle">Ministry of Tribal Affairs • GoI</string>
+    <string name="mota_apply_title">Apply for MoTA Scholarship</string>
+    <string name="mota_apply_subtitle">Ministry of Tribal Affairs • Direct Scheme Portal</string>
+
+    <!-- Language Selector -->
+    <string name="select_preferred_language">Select Language / भाषा चुनें</string>
+    <string name="language_selection_hint">Choose your preferred language for the scholarship portal</string>
+    <string name="language_changed_toast">Language changed to %s</string>
+
+    <!-- Login Page -->
+    <string name="beneficiary_login_title">Beneficiary Login</string>
+    <string name="beneficiary_login_subtitle">Sign in using your Registered Name and 12-digit Aadhaar Number</string>
+    <string name="hint_full_name">Full Name as per Aadhaar</string>
+    <string name="hint_aadhaar">12-digit Aadhaar Number</string>
+    <string name="btn_login">Verify &amp; Enter Dashboard</string>
+    <string name="error_enter_name">Please enter full name</string>
+    <string name="error_enter_aadhaar">Please enter Aadhaar number</string>
+    <string name="error_aadhaar_length">Aadhaar must be exactly 12 digits</string>
+    <string name="auth_failed_msg">Authentication Failed: Credentials not found in MoTA registry. Access is restricted to authorized tribal beneficiaries in the verified dataset.</string>
+    <string name="access_denied_toast">Access Denied: Unregistered Student</string>
+    <string name="demo_credentials_title">Demo Registered Beneficiaries (Tap to Auto-fill)</string>
+    <string name="demo_credentials_subtitle">These are verified test accounts in the official dataset:</string>
+    <string name="fresh_applicant_badge">⭐ [FRESH APPLICANT] </string>
+    <string name="loaded_credentials_toast">Loaded credentials for %s</string>
+
+    <!-- Dashboard -->
+    <string name="sign_out">Sign Out</string>
+    <string name="dbt_enabled">✓ DBT Enabled: Bank: %1$s (%2$s) | NPCI Aadhaar Bridge Active</string>
+    <string name="dbt_failed">⚠ DBT Disbursement Failed: %s</string>
+    <string name="remediation_step">Remediation Step: %s</string>
+    <string name="unified_applications_title">Unified Applications</string>
+    <string name="unified_applications_subtitle">Consolidated timeline tracked across NSP, SFMP, and NOS registries</string>
+    <string name="btn_apply_scholarship">+ Apply Scholarship</string>
+    <string name="empty_applications">No scholarship applications submitted yet.\nTap \'+ Apply Scholarship\' above to apply for any of the 5 MoTA schemes.</string>
+    <string name="digital_wallet_title">Digital Document Wallet (DigiLocker)</string>
+    <string name="zero_upload_model">Zero-Upload Model</string>
+    <string name="digital_wallet_subtitle">Auto-verified credentials carried forward across Pre-Matric, Post-Matric &amp; Fellowships</string>
+    <string name="empty_documents">No documents uploaded or linked yet.\nWhen you submit a scholarship application, your certificates will be stored here in the central registry.</string>
+    <string name="data_refreshed_toast">Application &amp; Documents saved to central database and refreshed!</string>
+    <string name="category_prefix">Category: %1$s • %2$s • DOB: %3$s</string>
+    <string name="pvtg_prefix">\nPVTG: %s</string>
+    <string name="institution_prefix">Institution: %1$s (%2$s)</string>
+    <string name="location_prefix">Location: %1$s, %2$s • Mobile: %3$s</string>
+
+    <!-- Apply Scholarship Page -->
+    <string name="applicant_profile_title">Applicant Profile (Aadhaar OTR Pre-filled)</string>
+    <string name="step1_title">Step 1: Choose MoTA Scholarship Scheme *</string>
+    <string name="step1_subtitle">Tap to select the scholarship scheme for which you meet eligibility:</string>
+    <string name="scheme_pre_matric">1. Pre-Matric Scholarship for ST Students (Class IX-X)</string>
+    <string name="scheme_post_matric">2. Post-Matric Scholarship for ST Students (Class XI to PG)</string>
+    <string name="scheme_top_class">3. Top Class Education Scheme (Premier Institutes: IIT/NIT/IIM/AIIMS)</string>
+    <string name="scheme_nfst">4. National Fellowship for Higher Education (NFST M.Phil/Ph.D)</string>
+    <string name="scheme_nos">5. National Overseas Scholarship (NOS for Foreign QS Top 500 Universities)</string>
+    <string name="benefit_prefix">Benefit: %s</string>
+    <string name="eligibility_prefix">Eligibility: %1$s\nTarget: %2$s</string>
+    <string name="registry_prefix">Verification Gateway: %1$s • Managed via %2$s</string>
+
+    <string name="step2_title">Step 2: Scheme-Specific Particulars</string>
+    <string name="step2_subtitle">Enter accurate academic and eligibility data required for this scheme:</string>
+    <string name="hint_academic_year">Academic Year (e.g. 2026-2027) *</string>
+    <string name="hint_family_income">Annual Family Income in ₹ (As per Tehsildar cert) *</string>
+    <string name="hint_udise_code">School UDISE+ Code (e.g. 20140200109)</string>
+    <string name="hint_class_level">Current Class Enrolled (Class IX or Class X)</string>
+    <string name="hint_hostel_type">Hosteller or Day Scholar?</string>
+    <string name="hint_post_matric_aishe">College / Institute AISHE Code (e.g. AISHE-U-0205)</string>
+    <string name="hint_course_year">Course &amp; Year of Study (e.g. B.Tech, B.Sc, M.A)</string>
+    <string name="hint_apaar_id">APAAR Student ID / ABC ID</string>
+    <string name="hint_top_institute_name">Notified Top Institute Name (IIT/IIM/NIT/AIIMS/NLU)</string>
+    <string name="hint_entrance_rank">Entrance Exam &amp; All India Rank (AIR)</string>
+    <string name="hint_tuition_claim">Annual Tuition Fee Claim (in ₹)</string>
+    <string name="hint_net_roll_no">UGC-NET / CSIR-NET Roll Number</string>
+    <string name="hint_research_topic">Ph.D / M.Phil Research Topic / Subject</string>
+    <string name="hint_phd_reg_date">Date of Ph.D Registration (dd-mm-yyyy)</string>
+    <string name="hint_foreign_uni">Foreign University Name (Top 500 QS Ranked)</string>
+    <string name="hint_foreign_course">Foreign Course Level &amp; Subject</string>
+    <string name="hint_passport_num">Passport Number (Valid for at least 1 year)</string>
+
+    <string name="step3_title">Step 3: Document Verification &amp; Upload *</string>
+    <string name="step3_subtitle">Upload or provide certificate credentials required for this scheme:</string>
+    <string name="doc1_caste_title">1. ST / PVTG Caste Certificate *</string>
+    <string name="hint_caste_cert_no">Caste Certificate #</string>
+    <string name="btn_upload_pdf">Upload PDF</string>
+    <string name="no_file_attached">No file selected</string>
+    <string name="doc_income_pre_matric">2. Annual Household Income Certificate (&lt;= ₹ 2.50L) *</string>
+    <string name="doc_acad_pre_matric">3. Class VIII / Previous Standard Marksheet or Headmaster Bonafide *</string>
+    <string name="doc_income_post_matric">2. Annual Household Income Certificate (&lt;= ₹ 2.50L) *</string>
+    <string name="doc_acad_post_matric">3. Class X / Secondary Board Marksheet &amp; APAAR Record *</string>
+    <string name="doc_income_top_class">2. Income Certificate (&lt;= ₹ 6.00L as per Top Class guidelines) *</string>
+    <string name="doc_acad_top_class">3. Premier Institute Admission Letter / Fee Structure *</string>
+    <string name="doc_income_nfst">2. University Ph.D Enrolment &amp; Supervisor Bonafide Certificate *</string>
+    <string name="doc_acad_nfst">3. UGC-NET / CSIR-NET JRF Qualifying Scorecard *</string>
+    <string name="doc_income_nos">2. Total Household Income Certificate (&lt;= ₹ 8.00 Lakh) *</string>
+    <string name="doc_acad_nos">3. Unconditional Offer Letter from QS Top 500 University &amp; Passport *</string>
+
+    <string name="digilocker_consent_text">I hereby declare all particulars entered above are accurate and consent to digital verification via DigiLocker / APAAR.</string>
+    <string name="digilocker_consent_subtext">Compliant with MoTA Scholarship Guidelines &amp; DPDP Act 2023. False declaration is liable to immediate rejection.</string>
+    <string name="dedup_existing_app">Notice: An active or approved application already exists for this scheme.</string>
+    <string name="dedup_conflict_fellowship">De-Dup Rule: Active Fellowship (NFST/NOS) detected. Concurrent Pre/Post-Matric claim is restricted.</string>
+    <string name="btn_submit_application">Submit Scheme Application</string>
+
+    <!-- Dialogs & Validations -->
+    <string name="warn_select_scheme">Please select a MoTA scholarship scheme</string>
+    <string name="warn_enter_ay">Please enter Academic Year (e.g. 2026-2027)</string>
+    <string name="warn_enter_income">Please enter Annual Family Income</string>
+    <string name="warn_enter_caste_no">Please enter ST Caste Certificate number</string>
+    <string name="warn_select_caste_file">Please select your ST Caste Certificate file</string>
+    <string name="warn_enter_income_no">Please enter Income Certificate number</string>
+    <string name="warn_select_income_file">Please select your Income Certificate file</string>
+    <string name="warn_enter_doc3_no">Please enter Document #3 reference number</string>
+    <string name="warn_select_doc3_file">Please select your Academic Document file</string>
+    <string name="warn_check_consent">Please check the declaration checkbox</string>
+    <string name="submission_success_title">✅ Application Submitted &amp; Verified!</string>
+    <string name="submission_success_msg">Ministry of Tribal Affairs Scheme Portal:\n\n• Scheme: %1$s\n• Application ID: %2$s\n• Status: Submitted — Pending Institute Verification\n• Documents: Uploaded and secured in Central DB\n• Cloud Sync: Synchronized with Central Server\n\nWould you like to open the official Government Portal (%3$s) to complete your portal filing?</string>
+    <string name="btn_open_official_portal">🌐 Open Official Portal</string>
+    <string name="btn_go_to_dashboard">Dashboard</string>
+    <string name="launching_portal_toast">Opening official government scholarship portal...</string>
+
+    <!-- Adapters & Cards -->
+    <string name="lifecycle_progress">6-Stage Lifecycle Progress:</string>
+    <string name="current_stage_label">Current Stage: </string>
+    <string name="sanction_amount_label">Sanction Amount: </string>
+    <string name="ref_id_label">Ref ID: %1$s (%2$s)</string>
+    <string name="app_meta_format">App ID: %1$s • AY %2$s • %3$s</string>
+    <string name="zero_reupload_badge">♻ Zero-Reupload Reused</string>
+    <string name="cert_id_prefix">Cert ID: %s</string>
+    <string name="authority_prefix">Authority: %1$s • Issued: %2$s</string>
+    <string name="doc_stored_in_app">💾 Stored in Secure In-App Vault</string>
+    <string name="btn_view_document">👁 View Document</string>
+
+    <!-- Lifecycle 6 Stages -->
+    <string name="stage_submission">Submission</string>
+    <string name="stage_inst_verification">Institute Verification</string>
+    <string name="stage_dist_approval">District/State Approval</string>
+    <string name="stage_mota_sanction">MoTA Sanction</string>
+    <string name="stage_pfms_dbt">PFMS/SFMP DBT Generation</string>
+    <string name="stage_bank_credit">Bank Account Credit</string>
+
+    <!-- JAGO Chatbot -->
+    <string name="jago_title">JAGO Scholarship Assistant</string>
+    <string name="jago_subtitle">AI Virtual Desk • MoTA Unified Platform</string>
+    <string name="jago_hint">Ask about status, DBT payment, documents, eligibility...</string>
+    <string name="jago_send">Send</string>
+    <string name="chip_eligibility">Am I eligible?</string>
+    <string name="chip_status">Application status</string>
+    <string name="chip_docs">Missing documents</string>
+    <string name="chip_dbt">Payment status</string>
+    <string name="chip_verification">Verification Stage</string>
+
+    <!-- Design.md Section 4 & 7: Navigation & Headings -->
+    <string name="nav_home">Home</string>
+    <string name="nav_documents">Documents</string>
+    <string name="nav_chat">Chat (JAGO)</string>
+    <string name="nav_profile">Profile</string>
+    <string name="my_applications_title">My Applications</string>
+    <string name="my_documents_title">My Documents</string>
+    <string name="search_documents_hint">Search documents...</string>
+    <string name="btn_upload_document">+ Upload Document</string>
+    <string name="digilocker_tag">DigiLocker</string>
+    <string name="last_updated_prefix">Last updated %s</string>
+    <string name="family_household_title">Family &amp; Sibling Profiles (Household Sync)</string>
+    <string name="family_household_subtitle">Linked members under Household ID: %s • Tap to switch view</string>
+    <string name="switch_profile_toast">Please authenticate to switch to %s</string>
+    <string name="btn_view_sibling">Login as %s</string>
+    <string name="sibling_auth_prompt">Aadhaar authentication required to switch profile to %s</string>
+    <string name="jago_voice_prompt">Speak your scholarship question...</string>
+    <string name="btn_biometric_login">🔒 Quick Biometric / Fingerprint Login</string>
+    <string name="biometric_prompt_title">MoTA Biometric Authentication</string>
+    <string name="biometric_prompt_subtitle">Scan fingerprint to verify beneficiary identity</string>
+    <string name="biometric_prompt_desc">Ministry of Tribal Affairs Unified Student Portal</string>
+    <string name="biometric_auth_failed">Biometric authentication failed. Please try again or use Aadhaar.</string>
+    <string name="biometric_not_supported">Biometric hardware not enrolled or supported. Please sign in with Aadhaar.</string>
+    <string name="voice_readout_on">🔊 Audio Voice Readout: ON</string>
+    <string name="voice_readout_off">🔇 Audio Voice Readout: OFF</string>
+</resources>

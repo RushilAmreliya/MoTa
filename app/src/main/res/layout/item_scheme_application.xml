@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="12dp"
+    app:cardCornerRadius="14dp"
+    app:cardElevation="2dp"
+    app:strokeColor="@color/mota_surface_variant"
+    app:strokeWidth="1dp"
+    app:cardBackgroundColor="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Header Row: Scheme Title & Status Badge -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/tvSchemeTitle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Post-Matric Scholarship for ST Students"
+                android:textColor="@color/mota_on_surface"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvStatusBadge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="APPROVED"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                android:textColor="@color/status_sanctioned"
+                android:background="@color/status_sanctioned_bg"
+                android:paddingHorizontal="8dp"
+                android:paddingVertical="4dp"
+                android:layout_marginStart="8dp" />
+        </LinearLayout>
+
+        <!-- Academic Year & Application ID -->
+        <TextView
+            android:id="@+id/tvAppMeta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="App ID: APP-2026-POST-8910 • AY 2026-27 • NSP Portal"
+            android:textColor="@color/mota_on_surface_variant"
+            android:textSize="12sp"
+            android:layout_marginTop="4dp" />
+
+        <!-- 6-Stage Timeline Visual Indicator (PRD Section 5.1.2) -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lifecycle_progress"
+            android:textColor="@color/mota_primary"
+            android:textSize="11sp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp" />
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="none"
+            android:layout_marginTop="4dp">
+
+            <LinearLayout
+                android:id="@+id/llTimelineSteps"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical" />
+        </HorizontalScrollView>
+
+        <!-- Current Pipeline Stage Box -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginTop="10dp"
+            android:background="@color/mota_surface"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/current_stage_label"
+                android:textStyle="bold"
+                android:textColor="@color/mota_primary"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/tvStage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MoTA Sanction"
+                android:textColor="@color/mota_on_surface"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <!-- Amount & PFMS Tracking -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginTop="8dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sanction_amount_label"
+                android:textStyle="bold"
+                android:textColor="@color/mota_on_surface_variant"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/tvAmount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="₹ 48,000 / year"
+                android:textStyle="bold"
+                android:textColor="@color/mota_secondary"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvPfmsTxn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PFMS / SFMP Ref: PFMS-TXN-20260928-883"
+            android:textColor="@color/mota_on_surface_variant"
+            android:textSize="11sp"
+            android:layout_marginTop="2dp" />
+
+        <!-- Badges Container -->
+        <com.google.android.material.chip.ChipGroup
+            android:id="@+id/cgBadges"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp" />
+
+        <!-- Remarks / Action item -->
+        <TextView
+            android:id="@+id/tvRemarks"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sanction order generated. Disbursal scheduled to Aadhaar-seeded account."
+            android:textColor="@color/mota_on_surface"
+            android:textSize="12sp"
+            android:layout_marginTop="8dp"
+            android:background="#F1F5F9"
+            android:padding="8dp" />
+
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

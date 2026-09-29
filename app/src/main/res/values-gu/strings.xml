@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- App & Ministry Branding -->
+    <string name="app_name">MoTA શિષ્યવૃત્તિ</string>
+    <string name="mota_full_title">જનજાતીય બાબતોનું મંત્રાલય</string>
+    <string name="mota_hindi_title">જનજાતીય બાબતોનું મંત્રાલય</string>
+    <string name="mota_subtitle">ભારત સરકાર • સંકલિત શિષ્યવૃત્તિ પોર્ટલ</string>
+    <string name="mota_dashboard_title">MoTA સંકલિત ડેશબોર્ડ</string>
+    <string name="mota_dashboard_subtitle">જનજાતીય બાબતોનું મંત્રાલય • ભારત સરકાર</string>
+    <string name="mota_apply_title">શિષ્યવૃત્તિ માટે અરજી કરો</string>
+    <string name="mota_apply_subtitle">જનજાતીય બાબતોનું મંત્રાલય • ડાયરેક્ટ યોજના પોર્ટલ</string>
+
+    <!-- Language Selector -->
+    <string name="select_preferred_language">ભાષા પસંદ કરો / Select Language</string>
+    <string name="language_selection_hint">શિષ્યવૃત્તિ પોર્ટલ માટે તમારી પસંદગીની ભાષા પસંદ કરો</string>
+    <string name="language_changed_toast">ભાષા બદલીને %s કરવામાં આવી છે</string>
+
+    <!-- Login Page -->
+    <string name="beneficiary_login_title">લાભાર્થી લૉગિન</string>
+    <string name="beneficiary_login_subtitle">તમારા નોંધાયેલા નામ અને ૧૨ અંકના આધાર નંબર સાથે લૉગિન કરો</string>
+    <string name="hint_full_name">આધાર કાર્ડ મુજબ પૂરું નામ</string>
+    <string name="hint_aadhaar">૧૨ અંકનો આધાર નંબર</string>
+    <string name="btn_login">ચકાસો અને ડેશબોર્ડમાં પ્રવેશ કરો</string>
+    <string name="error_enter_name">કૃપા કરીને પૂરું નામ દાખલ કરો</string>
+    <string name="error_enter_aadhaar">કૃપા કરીને આધાર નંબર દાખલ કરો</string>
+    <string name="error_aadhaar_length">આધાર નંબર બરાબર ૧૨ અંકનો હોવો જોઈએ</string>
+    <string name="auth_failed_msg">પ્રમાણીકરણ નિષ્ફળ: વિગતો ડેટાબેઝમાં મળેલ નથી. માત્ર ચકાસાયેલ આદિજાતિ વિદ્યાર્થીઓને પ્રવેશની પરવાનગી છે.</string>
+    <string name="access_denied_toast">પ્રવેશ નકારાયો: બિનનોંધાયેલ વિદ્યાર્થી</string>
+    <string name="demo_credentials_title">ડેમો નોંધાયેલ લાભાર્થીઓ (સ્વતઃ ભરવા માટે ટૅપ કરો)</string>
+    <string name="demo_credentials_subtitle">અધિકૃત ડેટાસેટમાં આ ચકાસાયેલા પરીક્ષણ ખાતાઓ છે:</string>
+    <string name="fresh_applicant_badge">⭐ [નવો અરજદાર] </string>
+    <string name="loaded_credentials_toast">%s ની વિગતો લોડ થઈ ગઈ</string>
+
+    <!-- Dashboard -->
+    <string name="sign_out">લૉગ આઉટ</string>
+    <string name="dbt_enabled">✓ DBT સક્રિય: બેંક: %1$s (%2$s) | NPCI આધાર બ્રિજ સક્રિય</string>
+    <string name="dbt_failed">⚠ DBT ચુકવણી નિષ્ફળ: %s</string>
+    <string name="remediation_step">સુધારાત્મક પગલું: %s</string>
+    <string name="unified_applications_title">સંકલિત અરજીઓ</string>
+    <string name="unified_applications_subtitle">NSP, SFMP અને NOS પોર્ટલ પર સંયુક્ત ટ્રેકિંગ</string>
+    <string name="btn_apply_scholarship">+ શિષ્યવૃત્તિ અરજી</string>
+    <string name="empty_applications">હજી સુધી કોઈ અરજી સબમિટ કરવામાં આવી નથી.\nનવી અરજી માટે ઉપર \'+ શિષ્યવૃત્તિ અરજી\' પર ટૅપ કરો.</string>
+    <string name="digital_wallet_title">ડિજિટલ દસ્તાવેજ વૉલેટ (DigiLocker)</string>
+    <string name="zero_upload_model">ઝીરો-અપલોડ મૉડલ</string>
+    <string name="digital_wallet_subtitle">પ્રી-મેટ્રિક, પોસ્ટ-મેટ્રિક અને ફેલોશિપ માટે આપમેળે ચકાસાયેલ પ્રમાણપત્રો</string>
+    <string name="empty_documents">કોઈ દસ્તાવેજ અપલોડ કરેલ નથી.\nઅરજી સબમિટ કર્યા પછી તમારા પ્રમાણપત્રો અહીં સંગ્રહિત થશે.</string>
+    <string name="data_refreshed_toast">અરજી અને દસ્તાવેજો કેન્દ્રીય ડેટાબેઝમાં સંગ્રહિત થઈ ગયા!</string>
+    <string name="category_prefix">કેટેગરી: %1$s • %2$s • જન્મ તારીખ: %3$s</string>
+    <string name="pvtg_prefix">\nPVTG: %s</string>
+    <string name="institution_prefix">સંસ્થા: %1$s (%2$s)</string>
+    <string name="location_prefix">સ્થળ: %1$s, %2$s • મોબાઇલ: %3$s</string>
+
+    <!-- Apply Scholarship Page -->
+    <string name="applicant_profile_title">અરજદાર પ્રોફાઇલ (આધાર OTR પૂર્વ-ભરેલ)</string>
+    <string name="step1_title">પગલું ૧: MoTA શિષ્યવૃત્તિ યોજના પસંદ કરો *</string>
+    <string name="step1_subtitle">તમારી પાત્રતા અનુસાર શિષ્યવૃત્તિ યોજના પસંદ કરો:</string>
+    <string name="scheme_pre_matric">૧. ST વિદ્યાર્થીઓ માટે પ્રી-મેટ્રિક શિષ્યવૃત્તિ (ધોરણ ૯-૧૦)</string>
+    <string name="scheme_post_matric">૨. ST વિદ્યાર્થીઓ માટે પોસ્ટ-મેટ્રિક શિષ્યવૃત્તિ (ધોરણ ૧૧ થી અનુસ્નાતક)</string>
+    <string name="scheme_top_class">૩. ટોપ ક્લાસ એજ્યુકેશન સ્કીમ (IIT/NIT/IIM/AIIMS સંસ્થાઓ)</string>
+    <string name="scheme_nfst">૪. ઉચ્ચ શિક્ષણ માટે રાષ્ટ્રીય ફેલોશિપ (NFST M.Phil/Ph.D)</string>
+    <string name="scheme_nos">૫. નેશનલ ઓવરસીઝ સ્કોલરશિપ (ટોપ ૫૦૦ વિદેશી યુનિવર્સિટી)</string>
+    <string name="benefit_prefix">લાભ: %s</string>
+    <string name="eligibility_prefix">પાત્રતા: %1$s\nલક્ષ્ય: %2$s</string>
+    <string name="registry_prefix">ચકાસણી ગેટવે: %1$s • પોર્ટલ: %2$s</string>
+
+    <string name="step2_title">પગલું ૨: યોજના-વિશિષ્ટ વિગતો</string>
+    <string name="step2_subtitle">આ યોજના માટે જરૂરી શૈક્ષણિક અને પાત્રતા વિગતો દાખલ કરો:</string>
+    <string name="hint_academic_year">શૈક્ષણિક વર્ષ (દા.ત. 2026-2027) *</string>
+    <string name="hint_family_income">વાર્ષિક કૌટુંબિક આવક ₹ માં *</string>
+    <string name="hint_udise_code">શાળા UDISE+ કોડ</string>
+    <string name="hint_class_level">હાલનો વર્ગ (ધોરણ ૯ અથવા ૧૦)</string>
+    <string name="hint_hostel_type">હોસ્ટેલર કે ડે-સ્કોલર?</string>
+    <string name="hint_post_matric_aishe">કોલેજ AISHE કોડ</string>
+    <string name="hint_course_year">કોર્સ અને અભ્યાસનું વર્ષ</string>
+    <string name="hint_apaar_id">APAAR વિદ્યાર્થી ID / ABC ID</string>
+    <string name="hint_top_institute_name">ટોચની સંસ્થાનું નામ</string>
+    <string name="hint_entrance_rank">પ્રવેશ પરીક્ષા અને AIR રેન્ક</string>
+    <string name="hint_tuition_claim">વાર્ષિક ટ્યુશન ફી દાવો (₹ માં)</string>
+    <string name="hint_net_roll_no">UGC-NET / CSIR-NET રોલ નંબર</string>
+    <string name="hint_research_topic">Ph.D સંશોધન વિષય</string>
+    <string name="hint_phd_reg_date">Ph.D નોંધણી તારીખ (dd-mm-yyyy)</string>
+    <string name="hint_foreign_uni">વિદેશી યુનિવર્સિટીનું નામ</string>
+    <string name="hint_foreign_course">વિદેશી અભ્યાસક્રમ સ્તર અને વિષય</string>
+    <string name="hint_passport_num">પાસપોર્ટ નંબર</string>
+
+    <string name="step3_title">પગલું ૩: દસ્તાવેજ ચકાસણી અને અપલોડ *</string>
+    <string name="step3_subtitle">આ યોજના માટે જરૂરી પ્રમાણપત્ર વિગતો અથવા ફાઇલ સબમિટ કરો:</string>
+    <string name="doc1_caste_title">૧. ST / PVTG જાતિ પ્રમાણપત્ર *</string>
+    <string name="hint_caste_cert_no">જાતિ પ્રમાણપત્ર નંબર</string>
+    <string name="btn_upload_pdf">PDF અપલોડ કરો</string>
+    <string name="no_file_attached">કોઈ ફાઇલ પસંદ કરેલ નથી</string>
+    <string name="doc_income_pre_matric">૨. વાર્ષિક કૌટુંબિક આવક પ્રમાણપત્ર (&lt;= ₹ 2.50L) *</string>
+    <string name="doc_acad_pre_matric">૩. અગાઉના ધોરણની માર્કશીટ અથવા બોનાફાઇડ *</string>
+    <string name="doc_income_post_matric">૨. વાર્ષિક કૌટુંબિક આવક પ્રમાણપત્ર (&lt;= ₹ 2.50L) *</string>
+    <string name="doc_acad_post_matric">૩. ધોરણ ૧૦ બોર્ડ માર્કશીટ અને APAAR રેકોર્ડ *</string>
+    <string name="doc_income_top_class">૨. આવક પ્રમાણપત્ર (&lt;= ₹ 6.00L) *</string>
+    <string name="doc_acad_top_class">૩. પ્રવેશ પત્ર / ફી માળખું *</string>
+    <string name="doc_income_nfst">૨. યુનિવર્સિટી Ph.D નોંધણી પ્રમાણપત્ર *</string>
+    <string name="doc_acad_nfst">૩. UGC-NET / JRF સ્કોરકાર્ડ *</string>
+    <string name="doc_income_nos">૨. કુલ કૌટુંબિક આવક પ્રમાણપત્ર (&lt;= ₹ 8.00 Lakh) *</string>
+    <string name="doc_acad_nos">૩. વિદેશી યુનિવર્સિટી ઑફર લેટર અને પાસપોર્ટ *</string>
+
+    <string name="digilocker_consent_text">હું જાહેર કરું છું કે ઉપરોક્ત વિગતો સાચી છે અને હું DigiLocker/APAAR દ્વારા ડિજિટલ ચકાસણી માટે સંમતિ આપું છું.</string>
+    <string name="digilocker_consent_subtext">જનજાતીય બાબતોના મંત્રાલયની માર્ગદર્શિકા અને DPDP અધિનિયમ ૨૦૨૩ અનુસાર. ખોટી માહિતી બદલ અરજી રદ થઈ શકે છે.</string>
+    <string name="dedup_existing_app">સૂચના: આ યોજના માટે અરજી પહેલેથી જ સબમિટ થયેલ છે.</string>
+    <string name="dedup_conflict_fellowship">નિયમ: સક્રિય ફેલોશિપ હોવાથી પ્રી/પોસ્ટ-મેટ્રિક અરજી મર્યાદિત છે.</string>
+    <string name="btn_submit_application">યોજના અરજી સબમિટ કરો</string>
+
+    <!-- Dialogs & Validations -->
+    <string name="warn_select_scheme">કૃપા કરીને એક યોજના પસંદ કરો</string>
+    <string name="warn_enter_ay">કૃપા કરીને શૈક્ષણિક વર્ષ દાખલ કરો</string>
+    <string name="warn_enter_income">કૃપા કરીને કૌટુંબિક આવક દાખલ કરો</string>
+    <string name="warn_enter_caste_no">કૃપા કરીને જાતિ પ્રમાણપત્ર નંબર દાખલ કરો</string>
+    <string name="warn_select_caste_file">કૃપા કરીને જાતિ પ્રમાણપત્ર ફાઇલ પસંદ કરો</string>
+    <string name="warn_enter_income_no">કૃપા કરીને આવક પ્રમાણપત્ર નંબર દાખલ કરો</string>
+    <string name="warn_select_income_file">કૃપા કરીને આવક પ્રમાણપત્ર ફાઇલ પસંદ કરો</string>
+    <string name="warn_enter_doc3_no">કૃપા કરીને દસ્તાવેજ #૩ નંબર દાખલ કરો</string>
+    <string name="warn_select_doc3_file">કૃપા કરીને શૈક્ષણિક દસ્તાવેજ ફાઇલ પસંદ કરો</string>
+    <string name="warn_check_consent">કૃપા કરીને ઘોષણા ચેકબોક્સ પસંદ કરો</string>
+    <string name="submission_success_title">✅ અરજી સફળતાપૂર્વક સબમિટ થઈ!</string>
+    <string name="submission_success_msg">જનજાતીય બાબતોનું મંત્રાલય પોર્ટલ:\n\n• યોજના: %1$s\n• અરજી ID: %2$s\n• સ્થિતિ: સબમિટ — સંસ્થા ચકાસણી બાકી\n• ૩ દસ્તાવેજો કેન્દ્રીય ડેટાબેઝમાં સાચવવામાં આવ્યા છે\n\nતમે ડેશબોર્ડ પર આ જોઈ શકો છો.</string>
+    <string name="btn_go_to_dashboard">ડેશબોર્ડ પર જાઓ</string>
+
+    <!-- Adapters & Cards -->
+    <string name="lifecycle_progress">૬-તબક્કાની પ્રગતિ:</string>
+    <string name="current_stage_label">હાલનો તબક્કો: </string>
+    <string name="sanction_amount_label">મંજૂર રકમ: </string>
+    <string name="ref_id_label">સંદર્ભ ID: %1$s (%2$s)</string>
+    <string name="app_meta_format">અરજી ID: %1$s • શૈક્ષણિક વર્ષ %2$s • %3$s</string>
+    <string name="zero_reupload_badge">♻ પુનઃ-અપલોડ મુક્ત વપરાશ</string>
+    <string name="cert_id_prefix">પ્રમાણપત્ર ID: %s</string>
+    <string name="authority_prefix">સત્તામંડળ: %1$s • તારીખ: %2$s</string>
+    <string name="doc_stored_in_app">💾 ઍપના સુરક્ષિત વૉલ્ટમાં સંગ્રહિત</string>
+    <string name="btn_view_document">👁 દસ્તાવેજ જુઓ</string>
+
+    <!-- Lifecycle 6 Stages -->
+    <string name="stage_submission">સબમિશન</string>
+    <string name="stage_inst_verification">સંસ્થા ચકાસણી</string>
+    <string name="stage_dist_approval">જિલ્લા/રાજ્ય મંજૂરી</string>
+    <string name="stage_mota_sanction">MoTA મંજૂરી</string>
+    <string name="stage_pfms_dbt">PFMS/SFMP DBT નિર્માણ</string>
+    <string name="stage_bank_credit">બેંક ખાતામાં જમા</string>
+</resources>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="1dp"
+    app:strokeColor="@color/mota_surface_variant"
+    app:strokeWidth="1dp"
+    app:cardBackgroundColor="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="14dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/tvDocTitle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="ST Caste Certificate"
+                android:textColor="@color/mota_on_surface"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvDocStatusBadge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Digitally Verified"
+                android:textSize="10sp"
+                android:textStyle="bold"
+                android:textColor="@color/status_sanctioned"
+                android:background="@color/status_sanctioned_bg"
+                android:paddingHorizontal="6dp"
+                android:paddingVertical="3dp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvDocAuthority"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Authority: State e-District / DigiLocker"
+            android:textColor="@color/mota_on_surface_variant"
+            android:textSize="12sp"
+            android:layout_marginTop="2dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginTop="6dp">
+
+            <TextView
+                android:id="@+id/tvDocNumber"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Doc #: JH/ST/2022/99042"
+                android:textColor="@color/mota_on_surface"
+                android:textSize="11sp" />
+
+            <TextView
+                android:id="@+id/tvReusedBadge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/zero_reupload_badge"
+                android:textColor="@color/mota_primary"
+                android:textSize="10sp"
+                android:textStyle="bold"
+                android:background="@color/mota_primary_container"
+                android:paddingHorizontal="6dp"
+                android:paddingVertical="2dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginTop="8dp">
+
+            <TextView
+                android:id="@+id/tvInAppStorageBadge"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/doc_stored_in_app"
+                android:textColor="@color/status_sanctioned"
+                android:textSize="10sp"
+                android:textStyle="bold"
+                android:background="@color/status_sanctioned_bg"
+                android:paddingHorizontal="6dp"
+                android:paddingVertical="4dp"
+                android:visibility="gone" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnViewDoc"
+                android:layout_width="wrap_content"
+                android:layout_height="36dp"
+                android:text="@string/btn_view_document"
+                android:textSize="11sp"
+                android:paddingHorizontal="10dp"
+                android:paddingVertical="0dp"
+                app:cornerRadius="6dp"
+                android:backgroundTint="@color/mota_primary"
+                android:layout_marginStart="8dp" />
+        </LinearLayout>
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

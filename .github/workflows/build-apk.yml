@@ -1,0 +1,44 @@
+name: Build and Release Android APK
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    name: Build Android APK
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Set up JDK 17
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: '17'
+          cache: 'gradle'
+
+      - name: Grant Execute Permission for Gradlew
+        run: chmod +x gradlew
+
+      - name: Build Debug APK
+        run: ./gradlew assembleDebug --stacktrace
+
+      - name: Rename APK for Easy Identification
+        run: |
+          mkdir -p release_apk
+          find app/build/outputs/apk/debug/ -name "*.apk" -exec cp {} release_apk/MoTA-Scholarship-Portal.apk \; || \
+          find app/build/intermediates/apk/ -name "*.apk" -exec cp {} release_apk/MoTA-Scholarship-Portal.apk \;
+
+      - name: Upload APK Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: MoTA-Scholarship-Portal-APK
+          path: release_apk/MoTA-Scholarship-Portal.apk
+          if-no-files-found: error
+          retention-days: 90

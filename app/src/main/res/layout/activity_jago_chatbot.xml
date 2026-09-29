@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/mota_surface">
+
+    <!-- Top App Bar -->
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/toolbarChatbot"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/mota_primary"
+        app:title="@string/jago_title"
+        app:titleTextColor="@color/white"
+        app:subtitle="@string/jago_subtitle"
+        app:subtitleTextColor="#D1FAE5"
+        app:navigationIcon="@android:drawable/ic_menu_revert" />
+
+    <!-- Quick Action Query Chips -->
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+        android:background="@color/white"
+        android:padding="8dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/chipStatus"
+                style="@style/Widget.Material3.Button.TonalButton"
+                android:layout_width="wrap_content"
+                android:layout_height="36dp"
+                android:text="@string/chip_status"
+                android:textSize="11sp"
+                android:paddingHorizontal="10dp"
+                android:paddingVertical="0dp"
+                android:layout_marginEnd="6dp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/chipDbt"
+                style="@style/Widget.Material3.Button.TonalButton"
+                android:layout_width="wrap_content"
+                android:layout_height="36dp"
+                android:text="@string/chip_dbt"
+                android:textSize="11sp"
+                android:paddingHorizontal="10dp"
+                android:paddingVertical="0dp"
+                android:layout_marginEnd="6dp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/chipDocs"
+                style="@style/Widget.Material3.Button.TonalButton"
+                android:layout_width="wrap_content"
+                android:layout_height="36dp"
+                android:text="@string/chip_docs"
+                android:textSize="11sp"
+                android:paddingHorizontal="10dp"
+                android:paddingVertical="0dp"
+                android:layout_marginEnd="6dp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/chipVerification"
+                style="@style/Widget.Material3.Button.TonalButton"
+                android:layout_width="wrap_content"
+                android:layout_height="36dp"
+                android:text="@string/chip_verification"
+                android:textSize="11sp"
+                android:paddingHorizontal="10dp"
+                android:paddingVertical="0dp"
+                android:layout_marginEnd="6dp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/chipEligibility"
+                style="@style/Widget.Material3.Button.TonalButton"
+                android:layout_width="wrap_content"
+                android:layout_height="36dp"
+                android:text="@string/chip_eligibility"
+                android:textSize="11sp"
+                android:paddingHorizontal="10dp"
+                android:paddingVertical="0dp" />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <!-- Chat Messages List -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvChatMessages"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:clipToPadding="false" />
+
+    <!-- Chat Input Bar -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:elevation="8dp">
+
+        <EditText
+            android:id="@+id/etChatInput"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:maxLines="4"
+            android:layout_weight="1"
+            android:hint="@string/jago_hint"
+            android:background="@drawable/bg_chat_input"
+            android:paddingHorizontal="16dp"
+            android:paddingVertical="10dp"
+            android:textSize="13sp"
+            android:textColor="@color/mota_on_surface"
+            android:imeOptions="actionSend"
+            android:inputType="textMultiLine|textCapSentences" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnVoiceInput"
+            style="@style/Widget.Material3.Button.TonalButton"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            app:icon="@android:drawable/ic_btn_speak_now"
+            app:iconGravity="textStart"
+            app:iconPadding="0dp"
+            app:iconTint="@color/mota_primary"
+            android:layout_marginStart="6dp"
+            android:contentDescription="Voice Input (Speech-to-Text)" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnSendMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:text="@string/jago_send"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:cornerRadius="24dp"
+            android:layout_marginStart="6dp"
+            android:backgroundTint="@color/mota_primary" />
+    </LinearLayout>
+
+</LinearLayout>

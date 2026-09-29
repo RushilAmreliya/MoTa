@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- App & Ministry Branding -->
+    <string name="app_name">जनजातीय कार्य मंत्रालय छात्रवृत्ति</string>
+    <string name="mota_full_title">जनजातीय कार्य मंत्रालय</string>
+    <string name="mota_hindi_title">जनजातीय कार्य मंत्रालय</string>
+    <string name="mota_subtitle">भारत सरकार • एकीकृत छात्रवृत्ति पोर्टल</string>
+    <string name="mota_dashboard_title">जनजातीय कार्य मंत्रालय एकीकृत डैशबोर्ड</string>
+    <string name="mota_dashboard_subtitle">जनजातीय कार्य मंत्रालय • भारत सरकार</string>
+    <string name="mota_apply_title">छात्रवृत्ति हेतु आवेदन करें</string>
+    <string name="mota_apply_subtitle">जनजातीय कार्य मंत्रालय • प्रत्यक्ष योजना पोर्टल</string>
+
+    <!-- Language Selector -->
+    <string name="select_preferred_language">भाषा चुनें / Select Language</string>
+    <string name="language_selection_hint">छात्रवृत्ति पोर्टल के लिए अपनी पसंदीदा भाषा चुनें</string>
+    <string name="language_changed_toast">भाषा बदलकर %s कर दी गई है</string>
+
+    <!-- Login Page -->
+    <string name="beneficiary_login_title">लाभार्थी लॉगिन</string>
+    <string name="beneficiary_login_subtitle">अपने पंजीकृत नाम और 12 अंकों के आधार नंबर से लॉगिन करें</string>
+    <string name="hint_full_name">आधार के अनुसार पूरा नाम</string>
+    <string name="hint_aadhaar">12 अंकों की आधार संख्या</string>
+    <string name="btn_login">सत्यापित करें और डैशबोर्ड में प्रवेश करें</string>
+    <string name="error_enter_name">कृपया पूरा नाम दर्ज करें</string>
+    <string name="error_enter_aadhaar">कृपया आधार संख्या दर्ज करें</string>
+    <string name="error_aadhaar_length">आधार संख्या ठीक 12 अंकों की होनी चाहिए</string>
+    <string name="auth_failed_msg">प्रमाणीकरण विफल: क्रेडेंशियल मंत्रालय के डेटाबेस में नहीं मिले। केवल सत्यापित जनजातीय लाभार्थियों को अनुमति है।</string>
+    <string name="access_denied_toast">पहुंच अस्वीकृत: अपंजीकृत छात्र</string>
+    <string name="demo_credentials_title">डेमो पंजीकृत लाभार्थी (स्वतः भरने के लिए टैप करें)</string>
+    <string name="demo_credentials_subtitle">आधिकारिक डेटासेट में ये सत्यापित परीक्षण खाते हैं:</string>
+    <string name="fresh_applicant_badge">⭐ [नया आवेदक] </string>
+    <string name="loaded_credentials_toast">%s के क्रेडेंशियल लोड किए गए</string>
+
+    <!-- Dashboard -->
+    <string name="sign_out">लॉगआउट</string>
+    <string name="dbt_enabled">✓ डीबीटी सक्षम: बैंक: %1$s (%2$s) | एनपीसीआई आधार ब्रिज सक्रिय</string>
+    <string name="dbt_failed">⚠ डीबीटी संवितरण विफल: %s</string>
+    <string name="remediation_step">सुधार कदम: %s</string>
+    <string name="unified_applications_title">एकीकृत आवेदन</string>
+    <string name="unified_applications_subtitle">एनएसपी, एसएफएमपी और एनओएस रजिस्ट्रीयों में समेकित ट्रैकिंग</string>
+    <string name="btn_apply_scholarship">+ छात्रवृत्ति आवेदन</string>
+    <string name="empty_applications">अभी तक कोई छात्रवृत्ति आवेदन जमा नहीं किया गया है।\n5 योजनाओं में से किसी के लिए आवेदन करने हेतु ऊपर \'+ छात्रवृत्ति आवेदन\' दबाएं।</string>
+    <string name="digital_wallet_title">डिजिटल दस्तावेज़ वॉलेट (डिजिलॉकर)</string>
+    <string name="zero_upload_model">शून्य-अपलोड मॉडल</string>
+    <string name="digital_wallet_subtitle">प्री-मैट्रिक, पोस्ट-मैट्रिक और फैलोशिप में स्वतः सत्यापित दस्तावेज़</string>
+    <string name="empty_documents">अभी तक कोई दस्तावेज़ अपलोड या लिंक नहीं किया गया है।\nआवेदन जमा करने पर आपके प्रमाण पत्र यहां केंद्रीय रजिस्ट्री में सुरक्षित रहेंगे।</string>
+    <string name="data_refreshed_toast">आवेदन और दस्तावेज़ केंद्रीय डेटाबेस में सहेजे गए और रीफ्रेश हुए!</string>
+    <string name="category_prefix">श्रेणी: %1$s • %2$s • जन्म तिथि: %3$s</string>
+    <string name="pvtg_prefix">\nपीवीटीजी: %s</string>
+    <string name="institution_prefix">संस्थान: %1$s (%2$s)</string>
+    <string name="location_prefix">स्थान: %1$s, %2$s • मोबाइल: %3$s</string>
+
+    <!-- Apply Scholarship Page -->
+    <string name="applicant_profile_title">आवेदक प्रोफ़ाइल (आधार ओसीआर/ओटीआर पूर्व-भरी)</string>
+    <string name="step1_title">चरण 1: छात्रवृत्ति योजना चुनें *</string>
+    <string name="step1_subtitle">अपनी पात्रता के अनुसार छात्रवृत्ति योजना का चयन करें:</string>
+    <string name="scheme_pre_matric">1. एसटी छात्रों के लिए प्री-मैट्रिक छात्रवृत्ति (कक्षा IX-X)</string>
+    <string name="scheme_post_matric">2. एसटी छात्रों के लिए पोस्ट-मैट्रिक छात्रवृत्ति (कक्षा XI से स्नातकोत्तर)</string>
+    <string name="scheme_top_class">3. शीर्ष श्रेणी शिक्षा योजना (प्रमुख संस्थान: IIT/NIT/IIM/AIIMS)</string>
+    <string name="scheme_nfst">4. उच्च शिक्षा के लिए राष्ट्रीय फैलोशिप (NFST एम.फिल/पीएच.डी)</string>
+    <string name="scheme_nos">5. राष्ट्रीय प्रवासी छात्रवृत्ति (शीर्ष 500 विदेशी विश्वविद्यालयों के लिए NOS)</string>
+    <string name="benefit_prefix">वित्तीय लाभ: %s</string>
+    <string name="eligibility_prefix">पात्रता: %1$s\nलक्षित समूह: %2$s</string>
+    <string name="registry_prefix">सत्यापन गेटवे: %1$s • प्रबंधित पोर्टल: %2$s</string>
+
+    <string name="step2_title">चरण 2: योजना-विशिष्ट विवरण</string>
+    <string name="step2_subtitle">इस योजना के लिए आवश्यक शैक्षणिक एवं पात्रता विवरण दर्ज करें:</string>
+    <string name="hint_academic_year">शैक्षणिक वर्ष (उदा. 2026-2027) *</string>
+    <string name="hint_family_income">वार्षिक पारिवारिक आय ₹ में (प्रमाण पत्र अनुसार) *</string>
+    <string name="hint_udise_code">स्कूल यूडीआईएसई+ कोड (उदा. 20140200109)</string>
+    <string name="hint_class_level">वर्तमान कक्षा (कक्षा IX या कक्षा X)</string>
+    <string name="hint_hostel_type">छात्रावासी या डे स्कॉलर?</string>
+    <string name="hint_post_matric_aishe">कॉलेज / संस्थान एआईएसएचई कोड (उदा. AISHE-U-0205)</string>
+    <string name="hint_course_year">पाठ्यक्रम और अध्ययन वर्ष (उदा. B.Tech, B.Sc, M.A)</string>
+    <string name="hint_apaar_id">अपार (APAAR) छात्र आईडी / एबीसी आईडी</string>
+    <string name="hint_top_institute_name">अधिसूचित शीर्ष संस्थान का नाम (IIT/IIM/NIT/AIIMS)</string>
+    <string name="hint_entrance_rank">प्रवेश परीक्षा एवं अखिल भारतीय रैंक (AIR)</string>
+    <string name="hint_tuition_claim">वार्षिक शिक्षण शुल्क दावा (₹ में)</string>
+    <string name="hint_net_roll_no">यूजीसी-नेट / सीएसआईआर-नेट रोल नंबर</string>
+    <string name="hint_research_topic">पीएच.डी / एम.फिल शोध विषय</string>
+    <string name="hint_phd_reg_date">पीएच.डी पंजीकरण तिथि (dd-mm-yyyy)</string>
+    <string name="hint_foreign_uni">विदेशी विश्वविद्यालय का नाम (QS टॉप 500)</string>
+    <string name="hint_foreign_course">विदेशी पाठ्यक्रम स्तर और विषय</string>
+    <string name="hint_passport_num">पासपोर्ट नंबर (कम से कम 1 वर्ष वैध)</string>
+
+    <string name="step3_title">चरण 3: दस्तावेज़ सत्यापन एवं अपलोड *</string>
+    <string name="step3_subtitle">इस योजना के लिए आवश्यक प्रमाण पत्र विवरण या फ़ाइल अपलोड करें:</string>
+    <string name="doc1_caste_title">1. एसटी / पीवीटीजी जाति प्रमाण पत्र *</string>
+    <string name="hint_caste_cert_no">जाति प्रमाण पत्र संख्या</string>
+    <string name="btn_upload_pdf">पीडीएफ अपलोड करें</string>
+    <string name="no_file_attached">कोई फ़ाइल नहीं चुनी गई</string>
+    <string name="doc_income_pre_matric">2. वार्षिक पारिवारिक आय प्रमाण पत्र (&lt;= ₹ 2.50 लाख) *</string>
+    <string name="doc_acad_pre_matric">3. कक्षा VIII / पूर्व कक्षा की अंकतालिका या प्रधानाध्यापक प्रमाण पत्र *</string>
+    <string name="doc_income_post_matric">2. वार्षिक पारिवारिक आय प्रमाण पत्र (&lt;= ₹ 2.50 लाख) *</string>
+    <string name="doc_acad_post_matric">3. कक्षा X / माध्यमिक बोर्ड अंकतालिका और अपार रिकॉर्ड *</string>
+    <string name="doc_income_top_class">2. आय प्रमाण पत्र (शीर्ष श्रेणी अनुसार &lt;= ₹ 6.00 लाख) *</string>
+    <string name="doc_acad_top_class">3. प्रमुख संस्थान प्रवेश पत्र / शुल्क संरचना *</string>
+    <string name="doc_income_nfst">2. विश्वविद्यालय पीएच.डी नामांकन एवं पर्यवेक्षक प्रमाण पत्र *</string>
+    <string name="doc_acad_nfst">3. यूजीसी-नेट / जेआरएफ पात्रता स्कोरकार्ड *</string>
+    <string name="doc_income_nos">2. कुल पारिवारिक आय प्रमाण पत्र (&lt;= ₹ 8.00 लाख) *</string>
+    <string name="doc_acad_nos">3. विदेशी विश्वविद्यालय का बिना शर्त प्रस्ताव पत्र एवं पासपोर्ट *</string>
+
+    <string name="digilocker_consent_text">मैं घोषणा करता/करती हूँ कि ऊपर दी गई सभी जानकारी सत्य है और मैं डिजिलॉकर/अपार द्वारा डिजिटल सत्यापन की सहमति देता/देती हूँ।</string>
+    <string name="digilocker_consent_subtext">जनजातीय कार्य मंत्रालय के नियमों और डीपीडीपी अधिनियम 2023 के अनुरूप। गलत जानकारी पर आवेदन तुरंत रद्द किया जा सकता है।</string>
+    <string name="dedup_existing_app">सूचना: इस योजना के लिए एक सक्रिय या स्वीकृत आवेदन पहले से मौजूद है।</string>
+    <string name="dedup_conflict_fellowship">डी-डुप्लीकेशन नियम: सक्रिय फैलोशिप (NFST/NOS) पाई गई। एक साथ प्री/पोस्ट-मैट्रिक छात्रवृत्ति की अनुमति नहीं है।</string>
+    <string name="btn_submit_application">योजना आवेदन जमा करें</string>
+
+    <!-- Dialogs & Validations -->
+    <string name="warn_select_scheme">कृपया एक छात्रवृत्ति योजना चुनें</string>
+    <string name="warn_enter_ay">कृपया शैक्षणिक वर्ष दर्ज करें (उदा. 2026-2027)</string>
+    <string name="warn_enter_income">कृपया वार्षिक पारिवारिक आय दर्ज करें</string>
+    <string name="warn_enter_caste_no">कृपया एसटी जाति प्रमाण पत्र संख्या दर्ज करें</string>
+    <string name="warn_select_caste_file">कृपया जाति प्रमाण पत्र फ़ाइल चुनें</string>
+    <string name="warn_enter_income_no">कृपया आय प्रमाण पत्र संख्या दर्ज करें</string>
+    <string name="warn_select_income_file">कृपया आय प्रमाण पत्र फ़ाइल चुनें</string>
+    <string name="warn_enter_doc3_no">कृपया दस्तावेज़ #3 की संदर्भ संख्या दर्ज करें</string>
+    <string name="warn_select_doc3_file">कृपया शैक्षणिक दस्तावेज़ फ़ाइल चुनें</string>
+    <string name="warn_check_consent">कृपया घोषणा चेकबॉक्स पर सही का निशान लगाएं</string>
+    <string name="submission_success_title">✅ आवेदन सफलतापूर्वक जमा हुआ!</string>
+    <string name="submission_success_msg">जनजातीय कार्य मंत्रालय छात्रवृत्ति पोर्टल:\n\n• योजना: %1$s\n• आवेदन आईडी: %2$s\n• स्थिति: जमा किया गया — संस्थान सत्यापन लंबित\n• 3 दस्तावेज़ अपलोड किए गए और केंद्रीय डेटाबेस में सुरक्षित हैं\n\nआप डैशबोर्ड पर अपना आवेदन और दस्तावेज़ देख सकते हैं।</string>
+    <string name="btn_go_to_dashboard">डैशबोर्ड पर जाएं</string>
+
+    <!-- Adapters & Cards -->
+    <string name="lifecycle_progress">6-चरणीय जीवन चक्र प्रगति:</string>
+    <string name="current_stage_label">वर्तमान चरण: </string>
+    <string name="sanction_amount_label">मंजूर राशि: </string>
+    <string name="ref_id_label">संदर्भ आईडी: %1$s (%2$s)</string>
+    <string name="app_meta_format">आवेदन आईडी: %1$s • शैक्षणिक वर्ष %2$s • %3$s</string>
+    <string name="zero_reupload_badge">♻ पुनः अपलोड मुक्त उपयोग</string>
+    <string name="cert_id_prefix">प्रमाण पत्र आईडी: %s</string>
+    <string name="authority_prefix">प्राधिकरण: %1$s • जारी तिथि: %2$s</string>
+    <string name="doc_stored_in_app">💾 ऐप के सुरक्षित वॉल्ट में संगृहीत</string>
+    <string name="btn_view_document">👁 दस्तावेज़ देखें</string>
+
+    <!-- Lifecycle 6 Stages -->
+    <string name="stage_submission">जमा किया गया</string>
+    <string name="stage_inst_verification">संस्थान सत्यापन</string>
+    <string name="stage_dist_approval">जिला/राज्य अनुमोदन</string>
+    <string name="stage_mota_sanction">मंत्रालय स्वीकृति</string>
+    <string name="stage_pfms_dbt">पीएफएमएस/एसएफएमपी डीबीटी निर्माण</string>
+    <string name="stage_bank_credit">बैंक खाते में राशि जमा</string>
+
+    <!-- JAGO Chatbot -->
+    <string name="jago_title">जागो (JAGO) छात्रवृत्ति सहायक</string>
+    <string name="jago_subtitle">एआई वर्चुअल डेस्क • जनजातीय कार्य मंत्रालय</string>
+    <string name="jago_hint">आवेदन स्थिति, डीबीटी भुगतान, दस्तावेज़, पात्रता पूछें...</string>
+    <string name="jago_send">भेजें</string>
+    <string name="chip_status">आवेदन स्थिति ट्रैक करें</string>
+    <string name="chip_dbt">डीबीटी भुगतान</string>
+    <string name="chip_docs">लंबित दस्तावेज़</string>
+    <string name="chip_verification">सत्यापन चरण</string>
+    <string name="chip_eligibility">योजना पात्रता</string>
+</resources>

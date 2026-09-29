@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- App & Ministry Branding -->
+    <string name="app_name">MoTA স্কলারশিপ</string>
+    <string name="mota_full_title">উপজাতি বিষয়ক মন্ত্রক</string>
+    <string name="mota_hindi_title">উপজাতি বিষয়ক মন্ত্রক</string>
+    <string name="mota_subtitle">ভারত সরকার • ঐক্যবদ্ধ স্কলারশিপ পোর্টাল</string>
+    <string name="mota_dashboard_title">MoTA ইউনিফাইড ড্যাশবোর্ড</string>
+    <string name="mota_dashboard_subtitle">উপজাতি বিষয়ক মন্ত্রক • ভারত সরকার</string>
+    <string name="mota_apply_title">স্কলারশিপের জন্য আবেদন করুন</string>
+    <string name="mota_apply_subtitle">উপজাতি বিষয়ক মন্ত্রক • সরাসরি স্কিম পোর্টাল</string>
+
+    <!-- Language Selector -->
+    <string name="select_preferred_language">ভাষা নির্বাচন করুন / Select Language</string>
+    <string name="language_selection_hint">স্কলারশিপ পোর্টালের জন্য আপনার পছন্দের ভাষা নির্বাচন করুন</string>
+    <string name="language_changed_toast">ভাষা %s এ পরিবর্তন করা হয়েছে</string>
+
+    <!-- Login Page -->
+    <string name="beneficiary_login_title">উপভোক্তা লগইন</string>
+    <string name="beneficiary_login_subtitle">আপনার নথিভুক্ত নাম এবং ১২ সংখ্যার আধার নম্বর দিয়ে প্রবেশ করুন</string>
+    <string name="hint_full_name">আধার অনুযায়ী সম্পূর্ণ নাম</string>
+    <string name="hint_aadhaar">১২ সংখ্যার আধার নম্বর</string>
+    <string name="btn_login">যাচাই করুন এবং ড্যাশবোর্ডে প্রবেশ করুন</string>
+    <string name="error_enter_name">অনুগ্রহ করে সম্পূর্ণ নাম লিখুন</string>
+    <string name="error_enter_aadhaar">অনুগ্রহ করে আধার নম্বর লিখুন</string>
+    <string name="error_aadhaar_length">আধার নম্বর ঠিক ১২ সংখ্যার হতে হবে</string>
+    <string name="auth_failed_msg">প্রমাণীকরণ ব্যর্থ হয়েছে: তথ্য পাওয়া যায়নি। শুধুমাত্র অনুমোদিত উপজাতি শিক্ষার্থীদের প্রবেশের অনুমতি আছে।</string>
+    <string name="access_denied_toast">অনুমতি প্রত্যাখ্যাত: অনথিভুক্ত শিক্ষার্থী</string>
+    <string name="demo_credentials_title">ডেমো উপভোক্তা অ্যাকাউন্ট (স্বয়ংক্রিয় পূরণের জন্য ট্যাপ করুন)</string>
+    <string name="demo_credentials_subtitle">এগুলি অফিসিয়াল ডাটাবেসের পরীক্ষিত অ্যাকাউন্ট:</string>
+    <string name="fresh_applicant_badge">⭐ [নতুন আবেদনকারী] </string>
+    <string name="loaded_credentials_toast">%s এর তথ্য লোড করা হয়েছে</string>
+
+    <!-- Dashboard -->
+    <string name="sign_out">সাইন আউট</string>
+    <string name="dbt_enabled">✓ DBT সক্রিয়: ব্যাঙ্ক: %1$s (%2$s) | NPCI আধার ব্রিজ সক্রিয়</string>
+    <string name="dbt_failed">⚠ DBT প্রদান ব্যর্থ: %s</string>
+    <string name="remediation_step">প্রতিকারের পদক্ষেপ: %s</string>
+    <string name="unified_applications_title">একত্রিত আবেদনসমূহ</string>
+    <string name="unified_applications_subtitle">NSP, SFMP এবং NOS পোর্টালে সমন্বিত ট্র্যাকিং</string>
+    <string name="btn_apply_scholarship">+ স্কলারশিপ আবেদন</string>
+    <string name="empty_applications">এখনও কোনো আবেদন জমা দেওয়া হয়নি।\nনতুন আবেদনের জন্য উপরে \'+ স্কলারশিপ আবেদন\' ট্যাপ করুন।</string>
+    <string name="digital_wallet_title">ডিজিটাল ডকুমেন্ট ওয়ালেট (ডিজিলকার)</string>
+    <string name="zero_upload_model">জিরো-আপলোড মডেল</string>
+    <string name="digital_wallet_subtitle">প্রি-ম্যাট্রিক, পোস্ট-ম্যাট্রিক এবং ফেলোশিপে স্বয়ং-যাচাইকৃত নথি</string>
+    <string name="empty_documents">কোনো নথি আপলোড বা সংযুক্ত করা হয়নি।\nআবেদনের পর আপনার শংসাপত্র এখানে সংরক্ষিত হবে।</string>
+    <string name="data_refreshed_toast">আবেদন এবং নথি কেন্দ্রীয় ডাটাবেসে সংরক্ষিত ও রিফ্রেশ হয়েছে!</string>
+    <string name="category_prefix">বিভাগ: %1$s • %2$s • জন্মতারিখ: %3$s</string>
+    <string name="pvtg_prefix">\nPVTG: %s</string>
+    <string name="institution_prefix">প্রতিষ্ঠান: %1$s (%2$s)</string>
+    <string name="location_prefix">অবস্থান: %1$s, %2$s • মোবাইল: %3$s</string>
+
+    <!-- Apply Scholarship Page -->
+    <string name="applicant_profile_title">আবেদনকারীর বিবরণ (আধার OTR প্রাক-পূরণ)</string>
+    <string name="step1_title">পদক্ষেপ ১: MoTA স্কলারশিপ স্কিম নির্বাচন করুন *</string>
+    <string name="step1_subtitle">আপনার যোগ্যতা অনুযায়ী স্কলারশিপ স্কিম বেছে নিন:</string>
+    <string name="scheme_pre_matric">১. ST শিক্ষার্থীদের জন্য প্রি-ম্যাট্রিক স্কলারশিপ (ক্লাস IX-X)</string>
+    <string name="scheme_post_matric">২. ST শিক্ষার্থীদের জন্য পোস্ট-ম্যাট্রিক স্কলারশিপ (ক্লাস XI থেকে স্নাতকোত্তর)</string>
+    <string name="scheme_top_class">৩. শীর্ষ শ্রেণি শিক্ষা স্কিম (IIT/NIT/IIM/AIIMS ইত্যাদি)</string>
+    <string name="scheme_nfst">৪. উচ্চশিক্ষার জন্য জাতীয় ফেলোশিপ (NFST M.Phil/Ph.D)</string>
+    <string name="scheme_nos">৫. জাতীয় বিদেশী স্কলারশিপ (শীর্ষ ৫০০ বিদেশী বিশ্ববিদ্যালয়ে)</string>
+    <string name="benefit_prefix">সুবিধা: %s</string>
+    <string name="eligibility_prefix">যোগ্যতা: %1$s\nলক্ষ্য: %2$s</string>
+    <string name="registry_prefix">যাচাইকরণ গেটওয়ে: %1$s • পরিচালিত পোর্টাল: %2$s</string>
+
+    <string name="step2_title">পদক্ষেপ ২: স্কিম-নির্দিষ্ট বিবরণ</string>
+    <string name="step2_subtitle">এই স্কিমের জন্য প্রয়োজনীয় শিক্ষাগত ও যোগ্যতার তথ্য প্রদান করুন:</string>
+    <string name="hint_academic_year">শিক্ষাবর্ষ (যেমন 2026-2027) *</string>
+    <string name="hint_family_income">বার্ষিক পারিবারিক আয় ₹ এ (শংসাপত্র অনুযায়ী) *</string>
+    <string name="hint_udise_code">স্কুল UDISE+ কোড</string>
+    <string name="hint_class_level">বর্তমান শ্রেণি (ক্লাস IX অথবা X)</string>
+    <string name="hint_hostel_type">হোস্টেলার নাকি ডে-স্কলার?</string>
+    <string name="hint_post_matric_aishe">কলেজ AISHE কোড (যেমন AISHE-U-0205)</string>
+    <string name="hint_course_year">কোর্স ও অধ্যয়নের বছর</string>
+    <string name="hint_apaar_id">APAAR স্টুডেন্ট ID / ABC ID</string>
+    <string name="hint_top_institute_name">শীর্ষ প্রতিষ্ঠানের নাম</string>
+    <string name="hint_entrance_rank">প্রবেশিকা পরীক্ষা ও AIR র‍্যাঙ্ক</string>
+    <string name="hint_tuition_claim">বার্ষিক টিউশন ফি দাবি (₹ এ)</string>
+    <string name="hint_net_roll_no">UGC-NET / CSIR-NET রোল নম্বর</string>
+    <string name="hint_research_topic">Ph.D / M.Phil গবেষণার বিষয়</string>
+    <string name="hint_phd_reg_date">Ph.D নিবন্ধনের তারিখ (dd-mm-yyyy)</string>
+    <string name="hint_foreign_uni">বিদেশী বিশ্ববিদ্যালয়ের নাম</string>
+    <string name="hint_foreign_course">বিদেশী কোর্স স্তর এবং বিষয়</string>
+    <string name="hint_passport_num">পাসপোর্ট নম্বর</string>
+
+    <string name="step3_title">পদক্ষেপ ৩: নথি যাচাই ও আপলোড *</string>
+    <string name="step3_subtitle">এই স্কিমের জন্য প্রয়োজনীয় শংসাপত্র তথ্য বা ফাইল প্রদান করুন:</string>
+    <string name="doc1_caste_title">১. ST / PVTG জাতিগত শংসাপত্র *</string>
+    <string name="hint_caste_cert_no">জাতিগত শংসাপত্র নম্বর</string>
+    <string name="btn_upload_pdf">PDF আপলোড করুন</string>
+    <string name="no_file_attached">কোনো ফাইল নির্বাচিত হয়নি</string>
+    <string name="doc_income_pre_matric">২. বার্ষিক পারিবারিক আয় শংসাপত্র (&lt;= ₹ 2.50L) *</string>
+    <string name="doc_acad_pre_matric">৩. পূর্ববর্তী শ্রেণির মার্কশিট বা হেডমাস্টার শংসাপত্র *</string>
+    <string name="doc_income_post_matric">২. বার্ষিক পারিবারিক আয় শংসাপত্র (&lt;= ₹ 2.50L) *</string>
+    <string name="doc_acad_post_matric">৩. দশম বোর্ডের মার্কশিট ও APAAR রেকর্ড *</string>
+    <string name="doc_income_top_class">২. আয় শংসাপত্র (&lt;= ₹ 6.00L) *</string>
+    <string name="doc_acad_top_class">৩. ভর্তি পত্র / ফি কাঠামো *</string>
+    <string name="doc_income_nfst">২. বিশ্ববিদ্যালয় Ph.D ভর্তি শংসাপত্র *</string>
+    <string name="doc_acad_nfst">৩. UGC-NET / JRF স্কোরকার্ড *</string>
+    <string name="doc_income_nos">২. মোট পারিবারিক আয় শংসাপত্র (&lt;= ₹ 8.00 Lakh) *</string>
+    <string name="doc_acad_nos">৩. বিদেশী বিশ্ববিদ্যালয়ের অফার লেটার ও পাসপোর্ট *</string>
+
+    <string name="digilocker_consent_text">আমি ঘোষণা করছি যে সমস্ত তথ্য সত্য এবং আমি ডিজিলকার/আপার মাধ্যমে ডিজিটাল যাচাইকরণের সম্মতি দিচ্ছি।</string>
+    <string name="digilocker_consent_subtext">উপজাতি বিষয়ক মন্ত্রকের নির্দেশিকা ও DPDP আইন ২০২৩ অনুযায়ী। ভুল তথ্যে আবেদন বাতিল হতে পারে।</string>
+    <string name="dedup_existing_app">বিজ্ঞপ্তি: এই স্কিমের জন্য ইতিমধ্যে একটি আবেদন প্রক্রিয়াধীন বা অনুমোদিত আছে।</string>
+    <string name="dedup_conflict_fellowship">ডি-ডুপ্লিকেশন নিয়ম: সক্রিয় ফেলোশিপ থাকার কারণে প্রি/পোস্ট-ম্যাট্রিক আবেদন সীমাবদ্ধ।</string>
+    <string name="btn_submit_application">আবেদন জমা দিন</string>
+
+    <!-- Dialogs & Validations -->
+    <string name="warn_select_scheme">অনুগ্রহ করে একটি স্কিম নির্বাচন করুন</string>
+    <string name="warn_enter_ay">অনুগ্রহ করে শিক্ষাবর্ষ লিখুন (যেমন 2026-2027)</string>
+    <string name="warn_enter_income">অনুগ্রহ করে পারিবারিক আয় লিখুন</string>
+    <string name="warn_enter_caste_no">অনুগ্রহ করে জাতিগত শংসাপত্র নম্বর লিখুন</string>
+    <string name="warn_select_caste_file">অনুগ্রহ করে জাতিগত শংসাপত্র ফাইল বেছে নিন</string>
+    <string name="warn_enter_income_no">অনুগ্রহ করে আয় শংসাপত্র নম্বর লিখুন</string>
+    <string name="warn_select_income_file">অনুগ্রহ করে আয় শংসাপত্র ফাইল বেছে নিন</string>
+    <string name="warn_enter_doc3_no">অনুগ্রহ করে ৩য় নথির নম্বর লিখুন</string>
+    <string name="warn_select_doc3_file">অনুগ্রহ করে শিক্ষাগত নথির ফাইল বেছে নিন</string>
+    <string name="warn_check_consent">অনুগ্রহ করে সম্মতি বক্সে টিক দিন</string>
+    <string name="submission_success_title">✅ আবেদন জমা সফল হয়েছে!</string>
+    <string name="submission_success_msg">উপজাতি বিষয়ক মন্ত্রক স্কলারশিপ পোর্টাল:\n\n• স্কিম: %1$s\n• আবেদন ID: %2$s\n• স্থিতি: জমা হয়েছে — প্রতিষ্ঠান যাচাইকরণ প্রক্রিয়াধীন\n• ৩টি নথি সফলভাবে সংরক্ষিত হয়েছে\n\nআপনি ড্যাশবোর্ডে এটি দেখতে পারবেন।</string>
+    <string name="btn_go_to_dashboard">ড্যাশবোর্ডে যান</string>
+
+    <!-- Adapters & Cards -->
+    <string name="lifecycle_progress">৬-পর্যায়ের অগ্রগতি:</string>
+    <string name="current_stage_label">বর্তমান পর্যায়: </string>
+    <string name="sanction_amount_label">অনুমোদিত পরিমাণ: </string>
+    <string name="ref_id_label">রেফারেন্স ID: %1$s (%2$s)</string>
+    <string name="app_meta_format">আবেদন ID: %1$s • শিক্ষাবর্ষ %2$s • %3$s</string>
+    <string name="zero_reupload_badge">♻ পুনঃ-আপলোড মুক্ত ব্যবহার</string>
+    <string name="cert_id_prefix">শংসাপত্র ID: %s</string>
+    <string name="authority_prefix">কর্তৃপক্ষ: %1$s • তারিখ: %2$s</string>
+    <string name="doc_stored_in_app">💾 অ্যাপের সুরক্ষিত ভল্টে সংরক্ষিত</string>
+    <string name="btn_view_document">👁 নথি দেখুন</string>
+
+    <!-- Lifecycle 6 Stages -->
+    <string name="stage_submission">জমা দেওয়া হয়েছে</string>
+    <string name="stage_inst_verification">প্রতিষ্ঠান যাচাইকরণ</string>
+    <string name="stage_dist_approval">জেলা/রাজ্য অনুমোদন</string>
+    <string name="stage_mota_sanction">MoTA মঞ্জুরি</string>
+    <string name="stage_pfms_dbt">PFMS/SFMP DBT তৈরি</string>
+    <string name="stage_bank_credit">ব্যাঙ্ক অ্যাকাউন্টে জমা</string>
+</resources>

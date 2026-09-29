@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Colors from Design.md Section 2 -->
+    <color name="mota_primary">#1B5E20</color>
+    <color name="mota_on_primary">#FFFFFF</color>
+    <color name="mota_primary_container">#C8E6C9</color>
+    <color name="mota_on_primary_container">#003300</color>
+
+    <color name="mota_secondary">#E65100</color>
+    <color name="mota_on_secondary">#FFFFFF</color>
+    <color name="mota_secondary_container">#FFE0B2</color>
+    <color name="mota_on_secondary_container">#4E1E00</color>
+
+    <color name="mota_tertiary">#1E40AF</color>
+    <color name="mota_on_tertiary">#FFFFFF</color>
+    <color name="mota_tertiary_container">#DBEAFE</color>
+    <color name="mota_on_tertiary_container">#1E3A8A</color>
+
+    <color name="mota_surface">#F7F7F7</color>
+    <color name="mota_on_surface">#212121</color>
+    <color name="mota_surface_variant">#E0E0E0</color>
+    <color name="mota_on_surface_variant">#616161</color>
+    <color name="mota_outline">#E0E0E0</color>
+
+    <!-- Status Colors from Design.md Section 6 -->
+    <color name="status_disbursed">#2E7D32</color>
+    <color name="status_disbursed_bg">#E8F5E9</color>
+    <color name="status_verified">#2E7D32</color>
+    <color name="status_verified_bg">#E8F5E9</color>
+    <color name="status_under_review">#EF6C00</color>
+    <color name="status_under_review_bg">#FFF3E0</color>
+    <color name="status_pending">#EF6C00</color>
+    <color name="status_pending_bg">#FFF3E0</color>
+    <color name="status_deficiency">#C62828</color>
+    <color name="status_deficiency_bg">#FFEBEE</color>
+    <color name="status_sanctioned">#2E7D32</color>
+    <color name="status_sanctioned_bg">#E8F5E9</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#212121</color>
+    <color name="card_bg">#FFFFFF</color>
+</resources>

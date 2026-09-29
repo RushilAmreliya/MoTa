@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- App & Ministry Branding -->
+    <string name="app_name">MoTA ବୃତ୍ତି</string>
+    <string name="mota_full_title">ଜନଜାତି ବ୍ୟାପାର ମନ୍ତ୍ରଣାଳୟ</string>
+    <string name="mota_hindi_title">ଜନଜାତି ବ୍ୟାପାର ମନ୍ତ୍ରଣାଳୟ</string>
+    <string name="mota_subtitle">ଭାରତ ସରକାର • ଏକୀକୃତ ବୃତ୍ତି ପୋର୍ଟାଲ୍</string>
+    <string name="mota_dashboard_title">MoTA ଏକୀକୃତ ଡ୍ୟାସବୋର୍ଡ</string>
+    <string name="mota_dashboard_subtitle">ଜନଜାତି ବ୍ୟାପାର ମନ୍ତ୍ରଣାଳୟ • ଭାରତ ସରକାର</string>
+    <string name="mota_apply_title">ଛାତ୍ରବୃତ୍ତି ପାଇଁ ଆବେଦନ କରନ୍ତୁ</string>
+    <string name="mota_apply_subtitle">ଜନଜାତି ବ୍ୟାପାର ମନ୍ତ୍ରଣାଳୟ • ପ୍ରତ୍ୟକ୍ଷ ଯୋଜନା ପୋର୍ଟାଲ୍</string>
+
+    <!-- Language Selector -->
+    <string name="select_preferred_language">ଭାଷା ବାଛନ୍ତୁ / Select Language</string>
+    <string name="language_selection_hint">ଛାତ୍ରବୃତ୍ତି ପୋର୍ଟାଲ୍ ପାଇଁ ଆପଣଙ୍କ ପସନ୍ଦର ଭାଷା ବାଛନ୍ତୁ</string>
+    <string name="language_changed_toast">ଭାଷା %s କୁ ପରିବର୍ତ୍ତିତ ହୋଇଛି</string>
+
+    <!-- Login Page -->
+    <string name="beneficiary_login_title">ହିତାଧିକାରୀ ଲଗଇନ୍</string>
+    <string name="beneficiary_login_subtitle">ଆପଣଙ୍କ ପଞ୍ଜୀକୃତ ନାମ ଏବଂ ୧୨ ଅଙ୍କର ଆଧାର ସଂଖ୍ୟା ଦେଇ ପ୍ରବେଶ କରନ୍ତୁ</string>
+    <string name="hint_full_name">ଆଧାର ଅନୁଯାୟୀ ସମ୍ପୂର୍ଣ୍ଣ ନାମ</string>
+    <string name="hint_aadhaar">୧୨ ଅଙ୍କ ବିଶିଷ୍ଟ ଆଧାର ସଂଖ୍ୟା</string>
+    <string name="btn_login">ଯାଞ୍ଚ କରନ୍ତୁ ଏବଂ ଡ୍ୟାସବୋର୍ଡକୁ ଯାଆନ୍ତୁ</string>
+    <string name="error_enter_name">ଦୟାକରି ସମ୍ପୂର୍ଣ୍ଣ ନାମ ଲେଖନ୍ତୁ</string>
+    <string name="error_enter_aadhaar">ଦୟାକରି ଆଧାର ସଂଖ୍ୟା ଲେଖନ୍ତୁ</string>
+    <string name="error_aadhaar_length">ଆଧାର ସଂଖ୍ୟା ୧୨ ଅଙ୍କ ବିଶିଷ୍ଟ ହେବା ଆବଶ୍ୟକ</string>
+    <string name="auth_failed_msg">ପ୍ରମାଣୀକରଣ ବିଫଳ: ତଥ୍ୟ ରେଜିଷ୍ଟ୍ରିରେ ମିଳିଲା ନାହିଁ। କେବଳ ସ୍ୱୀକୃତିପ୍ରାପ୍ତ ଜନଜାତି ଛାତ୍ରଛାତ୍ରୀଙ୍କୁ ଅନୁମତି ଅଛି।</string>
+    <string name="access_denied_toast">ଅନୁମତି ନାହିଁ: ଅଣ-ପଞ୍ଜୀକୃତ ଛାତ୍ର</string>
+    <string name="demo_credentials_title">ଡେମୋ ପଞ୍ଜୀକୃତ ହିତାଧିକାରୀ (ସ୍ୱତଃ ପୂରଣ ପାଇଁ ଟ୍ୟାପ୍ କରନ୍ତୁ)</string>
+    <string name="demo_credentials_subtitle">ଏଗୁଡ଼ିକ ସରକାରୀ ଡାଟାସେଟର ପରୀକ୍ଷିତ ଖାତା:</string>
+    <string name="fresh_applicant_badge">⭐ [ନୂତନ ଆବେଦନକାରୀ] </string>
+    <string name="loaded_credentials_toast">%s ଙ୍କ ତଥ୍ୟ ଲୋଡ୍ ହେଲା</string>
+
+    <!-- Dashboard -->
+    <string name="sign_out">ଲଗଆଉଟ୍</string>
+    <string name="dbt_enabled">✓ DBT ସକ୍ରିୟ: ବ୍ୟାଙ୍କ: %1$s (%2$s) | NPCI ଆଧାର ବ୍ରିଜ୍ ସକ୍ରିୟ</string>
+    <string name="dbt_failed">⚠ DBT ପ୍ରଦାନ ବିଫଳ: %s</string>
+    <string name="remediation_step">ସୁଧାର ପଦକ୍ଷେପ: %s</string>
+    <string name="unified_applications_title">ଏକୀକୃତ ଆବେଦନଗୁଡ଼ିକ</string>
+    <string name="unified_applications_subtitle">NSP, SFMP ଏବଂ NOS ପୋର୍ଟାଲରେ ଏକତ୍ରିତ ଟ୍ରାକିଂ</string>
+    <string name="btn_apply_scholarship">+ ଛାତ୍ରବୃତ୍ତି ଆବେଦନ</string>
+    <string name="empty_applications">କୌଣସି ଆବେଦନ ଏପର୍ଯ୍ୟନ୍ତ ଦାଖଲ ହୋଇନାହିଁ।\nନୂଆ ଆବେଦନ ପାଇଁ ଉପରେ \'+ ଛାତ୍ରବୃତ୍ତି ଆବେଦନ\' ଚୟନ କରନ୍ତୁ।</string>
+    <string name="digital_wallet_title">ଡିଜିଟାଲ୍ ଦଲିଲ ୱାଲେଟ୍ (DigiLocker)</string>
+    <string name="zero_upload_model">ଜିରୋ-ଅପଲୋଡ୍ ମଡେଲ୍</string>
+    <string name="digital_wallet_subtitle">ପ୍ରି-ମାଟ୍ରିକ୍, ପୋଷ୍ଟ-ମାଟ୍ରିକ୍ ଏବଂ ଫେଲୋସିପ୍ ପାଇଁ ସ୍ୱତଃ ପ୍ରମାଣିତ ପ୍ରମାଣପତ୍ର</string>
+    <string name="empty_documents">କୌଣସି ଦସ୍ତାବିଜ୍ ଯୋଡ଼ା ହୋଇନାହିଁ।\nଆବେଦନ ପରେ ଆପଣଙ୍କ ପ୍ରମାଣପତ୍ର ଏଠାରେ ସଂରକ୍ଷିତ ରହିବ।</string>
+    <string name="data_refreshed_toast">ଆବେଦନ ଏବଂ ପ୍ରମାଣପତ୍ର ସଫଳତାର ସହ ସଂରକ୍ଷିତ ହେଲା!</string>
+    <string name="category_prefix">ବର୍ଗ: %1$s • %2$s • ଜନ୍ମ ତାରିଖ: %3$s</string>
+    <string name="pvtg_prefix">\nPVTG: %s</string>
+    <string name="institution_prefix">ଅନୁଷ୍ଠାନ: %1$s (%2$s)</string>
+    <string name="location_prefix">ସ୍ଥାନ: %1$s, %2$s • ମୋବାଇଲ୍: %3$s</string>
+
+    <!-- Apply Scholarship Page -->
+    <string name="applicant_profile_title">ଆବେଦନକାରୀ ପ୍ରୋଫାଇଲ୍ (ଆଧାର OTR ପୂର୍ବ-ପୂରଣ)</string>
+    <string name="step1_title">ପଦକ୍ଷେପ ୧: MoTA ଛାତ୍ରବୃତ୍ତି ଯୋଜନା ବାଛନ୍ତୁ *</string>
+    <string name="step1_subtitle">ଆପଣଙ୍କ ଯୋଗ୍ୟତା ଅନୁଯାୟୀ ଛାତ୍ରବୃତ୍ତି ଯୋଜନା ଚୟନ କରନ୍ତୁ:</string>
+    <string name="scheme_pre_matric">୧. ST ଛାତ୍ରଛାତ୍ରୀଙ୍କ ପାଇଁ ପ୍ରି-ମାଟ୍ରିକ୍ ଛାତ୍ରବୃତ୍ତି (କ୍ଲାସ IX-X)</string>
+    <string name="scheme_post_matric">୨. ST ଛାତ୍ରଛାତ୍ରୀଙ୍କ ପାଇଁ ପୋଷ୍ଟ-ମାଟ୍ରିକ୍ ଛାତ୍ରବୃତ୍ତି (କ୍ଲାସ XI ରୁ ସ୍ନାତକୋତ୍ତର)</string>
+    <string name="scheme_top_class">୩. ଶ୍ରେଷ୍ଠ ଶ୍ରେଣୀ ଶିକ୍ଷା ଯୋଜନା (IIT/NIT/IIM/AIIMS)</string>
+    <string name="scheme_nfst">୪. ଉଚ୍ଚ ଶିକ୍ଷା ପାଇଁ ଜାତୀୟ ଫେଲୋସିପ୍ (NFST M.Phil/Ph.D)</string>
+    <string name="scheme_nos">୫. ଜାତୀୟ ବିଦେଶୀ ଛାତ୍ରବୃତ୍ତି (NOS ବିଦେଶୀ ବିଶ୍ୱବିଦ୍ୟାଳୟ ପାଇଁ)</string>
+    <string name="benefit_prefix">ସୁବିଧା: %s</string>
+    <string name="eligibility_prefix">ଯୋଗ୍ୟତା: %1$s\nଲକ୍ଷ୍ୟ: %2$s</string>
+    <string name="registry_prefix">ଯାଞ୍ଚ ଗେଟୱେ: %1$s • ପୋର୍ଟାଲ୍: %2$s</string>
+
+    <string name="step2_title">ପଦକ୍ଷେପ ୨: ଯୋଜନା ସମ୍ବନ୍ଧିତ ବିବରଣୀ</string>
+    <string name="step2_subtitle">ଏହି ଯୋଜନା ପାଇଁ ଆବଶ୍ୟକୀୟ ଶିକ୍ଷାଗତ ଓ ଯୋଗ୍ୟତା ତଥ୍ୟ ଦିଅନ୍ତୁ:</string>
+    <string name="hint_academic_year">ଶିକ୍ଷାବର୍ଷ (ଯଥା 2026-2027) *</string>
+    <string name="hint_family_income">ବାର୍ଷିକ ପାରିବାରିକ ଆୟ ₹ ରେ *</string>
+    <string name="hint_udise_code">ବିଦ୍ୟାଳୟ UDISE+ କୋଡ୍</string>
+    <string name="hint_class_level">ବର୍ତ୍ତମାନର ଶ୍ରେଣୀ (କ୍ଲାସ IX କିମ୍ବା X)</string>
+    <string name="hint_hostel_type">ଛାତ୍ରାବାସ କିମ୍ବା ଡେ-ସ୍କଲାର୍?</string>
+    <string name="hint_post_matric_aishe">କଲେଜ୍ AISHE କୋଡ୍ (ଯଥା AISHE-U-0205)</string>
+    <string name="hint_course_year">ପାଠ୍ୟକ୍ରମ ଏବଂ ଅଧ୍ୟୟନ ବର୍ଷ</string>
+    <string name="hint_apaar_id">APAAR ଛାତ୍ର ID / ABC ID</string>
+    <string name="hint_top_institute_name">ଶ୍ରେଷ୍ଠ ଅନୁଷ୍ଠାନର ନାମ</string>
+    <string name="hint_entrance_rank">ପ୍ରବେଶିକା ପରୀକ୍ଷା ଓ AIR ରାଙ୍କ</string>
+    <string name="hint_tuition_claim">ବାର୍ଷିକ ଟ୍ୟୁସନ୍ ଫିସ୍ ଦାବି (₹ ରେ)</string>
+    <string name="hint_net_roll_no">UGC-NET / CSIR-NET ରୋଲ୍ ନମ୍ବର</string>
+    <string name="hint_research_topic">Ph.D / M.Phil ଗବେଷଣା ବିଷୟ</string>
+    <string name="hint_phd_reg_date">Ph.D ପଞ୍ଜୀକରଣ ତାରିଖ (dd-mm-yyyy)</string>
+    <string name="hint_foreign_uni">ବିଦେଶୀ ବିଶ୍ୱବିଦ୍ୟାଳୟ ନାମ</string>
+    <string name="hint_foreign_course">ବିଦେଶୀ ପାଠ୍ୟକ୍ରମ ସ୍ତର ଏବଂ ବିଷୟ</string>
+    <string name="hint_passport_num">ପାସପୋର୍ଟ ନମ୍ବର</string>
+
+    <string name="step3_title">ପଦକ୍ଷେପ ୩: ପ୍ରମାଣପତ୍ର ଯାଞ୍ଚ ଏବଂ ଅପଲୋଡ୍ *</string>
+    <string name="step3_subtitle">ଏହି ଯୋଜନା ପାଇଁ ଆବଶ୍ୟକୀୟ ପ୍ରମାଣପତ୍ର ଦାଖଲ କରନ୍ତୁ:</string>
+    <string name="doc1_caste_title">୧. ST / PVTG ଜାତି ପ୍ରମାଣପତ୍ର *</string>
+    <string name="hint_caste_cert_no">ଜାତି ପ୍ରମାଣପତ୍ର ସଂଖ୍ୟା</string>
+    <string name="btn_upload_pdf">PDF ଅପଲୋଡ୍ କରନ୍ତୁ</string>
+    <string name="no_file_attached">କୌଣସି ଫାଇଲ୍ ଚୟନ ହୋଇନାହିଁ</string>
+    <string name="doc_income_pre_matric">୨. ବାର୍ଷିକ ପାରିବାରିକ ଆୟ ପ୍ରମାଣପତ୍ର (&lt;= ₹ 2.50L) *</string>
+    <string name="doc_acad_pre_matric">୩. ପୂର୍ବ ଶ୍ରେଣୀ ମାର୍କସିଟ୍ କିମ୍ବା ବୋନାଫାଇଡ୍ *</string>
+    <string name="doc_income_post_matric">୨. ବାର୍ଷିକ ପାରିବାରିକ ଆୟ ପ୍ରମାଣପତ୍ର (&lt;= ₹ 2.50L) *</string>
+    <string name="doc_acad_post_matric">୩. ଦଶମ ବୋର୍ଡ ମାର୍କସିଟ୍ ଓ APAAR ରେକର୍ଡ *</string>
+    <string name="doc_income_top_class">୨. ଆୟ ପ୍ରମାଣପତ୍ର (&lt;= ₹ 6.00L) *</string>
+    <string name="doc_acad_top_class">୩. ଅନୁଷ୍ଠାନ ଆଡମିଶନ ଚିଠି / ଫିସ୍ ବିବରଣୀ *</string>
+    <string name="doc_income_nfst">୨. ବିଶ୍ୱବିଦ୍ୟାଳୟ Ph.D ନାମଲେଖା ପ୍ରମାଣପତ୍ର *</string>
+    <string name="doc_acad_nfst">୩. UGC-NET / JRF ଯୋଗ୍ୟତା ସ୍କୋରକାର୍ଡ *</string>
+    <string name="doc_income_nos">୨. ସମୁଦାୟ ପାରିବାରିକ ଆୟ ପ୍ରମାଣପତ୍ର (&lt;= ₹ 8.00 Lakh) *</string>
+    <string name="doc_acad_nos">୩. ବିଦେଶୀ ବିଶ୍ୱବିଦ୍ୟାଳୟ ଅଫର ଲେଟର ଏବଂ ପାସପୋର୍ଟ *</string>
+
+    <string name="digilocker_consent_text">ମୁଁ ଘୋଷଣା କରୁଛି ଯେ ପ୍ରଦାନ କରାଯାଇଥିବା ସମସ୍ତ ତଥ୍ୟ ସତ୍ୟ ଏବଂ ମୁଁ DigiLocker / APAAR ମାଧ୍ୟମରେ ଡିଜିଟାଲ୍ ଯାଞ୍ଚ ପାଇଁ ସହମତି ପ୍ରଦାନ କରୁଛି।</string>
+    <string name="digilocker_consent_subtext">ଜନଜାତି ବ୍ୟାପାର ମନ୍ତ୍ରଣାଳୟ ନିର୍ଦ୍ଦେଶାବଳୀ ଓ DPDP ଆଇନ ୨୦୨୩ ଅନୁଯାୟୀ। ଭୁଲ ତଥ୍ୟ ପାଇଁ ଆବେଦନ ରଦ୍ଦ ହୋଇପାରେ।</string>
+    <string name="dedup_existing_app">ସୂଚନା: ଏହି ଯୋଜନା ପାଇଁ ଏକ ଆବେଦନ ପୂର୍ବରୁ ବିଚାରାଧୀନ କିମ୍ବା ମଞ୍ଜୁର ଅଛି।</string>
+    <string name="dedup_conflict_fellowship">ଡି-ଡୁପ୍ଲିକେସନ୍ ନିୟମ: ସକ୍ରିୟ ଫେଲୋସିପ୍ ଥିବାରୁ ପ୍ରି/ପୋଷ୍ଟ-ମାଟ୍ରିକ୍ ଆବେଦନ ଅନୁମୋଦିତ ନୁହେଁ।</string>
+    <string name="btn_submit_application">ଯୋଜନା ଆବେଦନ ଦାଖଲ କରନ୍ତୁ</string>
+
+    <!-- Dialogs & Validations -->
+    <string name="warn_select_scheme">ଦୟାକରି ଏକ ଯୋଜନା ଚୟନ କରନ୍ତୁ</string>
+    <string name="warn_enter_ay">ଦୟାକରି ଶିକ୍ଷାବର୍ଷ ଲେଖନ୍ତୁ (ଯଥା 2026-2027)</string>
+    <string name="warn_enter_income">ଦୟାକରି ପାରିବାରିକ ଆୟ ଲେଖନ୍ତୁ</string>
+    <string name="warn_enter_caste_no">ଦୟାକରି ଜାତି ପ୍ରମାଣପତ୍ର ନମ୍ବର ଲେଖନ୍ତୁ</string>
+    <string name="warn_select_caste_file">ଦୟାକରି ଜାତି ପ୍ରମାଣପତ୍ର ଫାଇଲ୍ ବାଛନ୍ତୁ</string>
+    <string name="warn_enter_income_no">ଦୟାକରି ଆୟ ପ୍ରମାଣପତ୍ର ନମ୍ବର ଲେଖନ୍ତୁ</string>
+    <string name="warn_select_income_file">ଦୟାକରି ଆୟ ପ୍ରମାଣପତ୍ର ଫାଇଲ୍ ବାଛନ୍ତୁ</string>
+    <string name="warn_enter_doc3_no">ଦୟାକରି ଦସ୍ତାବିଜ୍ #୩ ନମ୍ବର ଲେଖନ୍ତୁ</string>
+    <string name="warn_select_doc3_file">ଦୟାକରି ଶିକ୍ଷାଗତ ଦସ୍ତାବିଜ୍ ଫାଇଲ୍ ବାଛନ୍ତୁ</string>
+    <string name="warn_check_consent">ଦୟାକରି ଘୋଷଣାପତ୍ର ଚେକବକ୍ସ ଚୟନ କରନ୍ତୁ</string>
+    <string name="submission_success_title">✅ ଆବେଦନ ଦାଖଲ ସଫଳ!</string>
+    <string name="submission_success_msg">ଜନଜାତି ବ୍ୟାପାର ମନ୍ତ୍ରଣାଳୟ ପୋର୍ଟାଲ୍:\n\n• ଯୋଜନା: %1$s\n• ଆବେଦନ ID: %2$s\n• ସ୍ଥିତି: ଦାଖଲ ହେଲା — ଅନୁଷ୍ଠାନ ଯାଞ୍ଚ ଅପେକ୍ଷିତ\n• ୩ଟି ଦସ୍ତାବିଜ୍ ସଂରକ୍ଷିତ ହେଲା\n\nଆପଣ ଡ୍ୟାସବୋର୍ଡରେ ଏହା ଦେଖିପାରିବେ।</string>
+    <string name="btn_go_to_dashboard">ଡ୍ୟାସବୋର୍ଡକୁ ଯାଆନ୍ତୁ</string>
+
+    <!-- Adapters & Cards -->
+    <string name="lifecycle_progress">୬-ପର୍ଯ୍ୟାୟ ପ୍ରଗତି:</string>
+    <string name="current_stage_label">ବର୍ତ୍ତମାନର ପର୍ଯ୍ୟାୟ: </string>
+    <string name="sanction_amount_label">ମଞ୍ଜୁର ରାଶି: </string>
+    <string name="ref_id_label">ରେଫରେନ୍ସ ID: %1$s (%2$s)</string>
+    <string name="app_meta_format">ଆବେଦନ ID: %1$s • ବର୍ଷ %2$s • %3$s</string>
+    <string name="zero_reupload_badge">♻ ପୁନଃ-ଅପଲୋଡ୍ ମୁକ୍ତ ବ୍ୟବହୃତ</string>
+    <string name="cert_id_prefix">ପ୍ରମାଣପତ୍ର ID: %s</string>
+    <string name="authority_prefix">କର୍ତ୍ତୃପକ୍ଷ: %1$s • ତାରିଖ: %2$s</string>
+    <string name="doc_stored_in_app">💾 ଆପ୍ ର ସୁରକ୍ଷିତ ଭଲ୍ଟରେ ସଂରକ୍ଷିତ</string>
+    <string name="btn_view_document">👁 ଦସ୍ତାବିଜ ଦେଖନ୍ତୁ</string>
+
+    <!-- Lifecycle 6 Stages -->
+    <string name="stage_submission">ଦାଖଲ</string>
+    <string name="stage_inst_verification">ଅନୁଷ୍ଠାନ ଯାଞ୍ଚ</string>
+    <string name="stage_dist_approval">ଜିଲ୍ଲା/ରାଜ୍ୟ ଅନୁମୋଦନ</string>
+    <string name="stage_mota_sanction">MoTA ମଞ୍ଜୁରୀ</string>
+    <string name="stage_pfms_dbt">PFMS/SFMP DBT ପ୍ରସ୍ତୁତି</string>
+    <string name="stage_bank_credit">ବ୍ୟାଙ୍କ ଜମା</string>
+</resources>

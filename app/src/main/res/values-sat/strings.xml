@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- App & Ministry Branding -->
+    <string name="app_name">MoTA ᱥᱠᱚᱞᱟᱨᱥᱤᱯ</string>
+    <string name="mota_full_title">ᱟᱹᱫᱤᱵᱟᱹᱥᱤ ᱵᱟᱵᱚᱛ ᱢᱚᱱᱛᱨᱟᱲᱚᱭ</string>
+    <string name="mota_hindi_title">ᱟᱹᱫᱤᱵᱟᱹᱥᱤ ᱵᱟᱵᱚᱛ ᱢᱚᱱᱛᱨᱟᱲᱚᱭ</string>
+    <string name="mota_subtitle">ᱥᱤᱧᱚᱛ ᱥᱚᱨᱠᱟᱨ • ᱢᱤᱫᱩᱱ ᱥᱠᱚᱞᱟᱨᱥᱤᱯ ᱯᱚᱨᱴᱟᱞ</string>
+    <string name="mota_dashboard_title">MoTA ᱢᱤᱫᱩᱱ ᱰᱮᱥᱵᱚᱨᱰ</string>
+    <string name="mota_dashboard_subtitle">ᱟᱹᱫᱤᱵᱟᱹᱥᱤ ᱵᱟᱵᱚᱛ ᱢᱚᱱᱛᱨᱟᱲᱚᱭ • ᱥᱤᱧᱚᱛ ᱥᱚᱨᱠᱟᱨ</string>
+    <string name="mota_apply_title">ᱥᱠᱚᱞᱟᱨᱥᱤᱯ ᱞᱟᱹᱜᱤᱫ ᱟᱨᱡᱤ ᱮᱢ</string>
+    <string name="mota_apply_subtitle">ᱟᱹᱫᱤᱵᱟᱹᱥᱤ ᱵᱟᱵᱚᱛ ᱢᱚᱱᱛᱨᱟᱲᱚᱭ • ᱡᱚᱡᱚᱱᱟ ᱯᱚᱨᱴᱟᱞ</string>
+
+    <!-- Language Selector -->
+    <string name="select_preferred_language">ᱯᱟᱹᱨᱥᱤ ᱵᱟᱪᱷᱟᱣ / Select Language</string>
+    <string name="language_selection_hint">ᱥᱠᱚᱞᱟᱨᱥᱤᱯ ᱯᱚᱨᱴᱟᱞ ᱞᱟᱹᱜᱤᱫ ᱟᱢᱟᱜ ᱠᱩᱥᱤ ᱯᱟᱹᱨᱥᱤ ᱵᱟᱪᱷᱟᱣ ᱢᱮ</string>
+    <string name="language_changed_toast">ᱯᱟᱹᱨᱥᱤ ᱵᱚᱫᱚᱞ ᱮᱱᱟ %s ᱛᱮ</string>
+
+    <!-- Login Page -->
+    <string name="beneficiary_login_title">ᱦᱤᱛᱟᱹᱫᱷᱤᱠᱟᱹᱨᱤ ᱞᱚᱜᱤᱱ</string>
+    <string name="beneficiary_login_subtitle">ᱟᱢᱟᱜ ᱨᱮᱡᱤᱥᱴᱟᱨ ᱧᱩᱛᱩᱢ ᱟᱨ ᱑᱒ ᱮᱞ ᱟᱫᱷᱟᱨ ᱮᱞ ᱛᱮ ᱞᱚᱜᱤᱱ ᱢᱮ</string>
+    <string name="hint_full_name">ᱟᱫᱷᱟᱨ ᱞᱮᱠᱟᱛᱮ ᱯᱩᱨᱟᱹ ᱧᱩᱛᱩᱢ</string>
+    <string name="hint_aadhaar">᱑᱒ ᱮᱞ ᱟᱫᱷᱟᱨ ᱱᱚᱢᱵᱚᱨ</string>
+    <string name="btn_login">ᱯᱚᱨᱠᱷᱟᱹᱣ ᱢᱮ ᱟᱨ ᱰᱮᱥᱵᱚᱨᱰ ᱪᱟᱞᱟᱜ ᱢᱮ</string>
+    <string name="error_enter_name">ᱫᱟᱭᱟᱠᱟᱛᱮ ᱯᱩᱨᱟᱹ ᱧᱩᱛᱩᱢ ᱚᱞ ᱢᱮ</string>
+    <string name="error_enter_aadhaar">ᱫᱟᱭᱟᱠᱟᱛᱮ ᱟᱫᱷᱟᱨ ᱮᱞ ᱚᱞ ᱢᱮ</string>
+    <string name="error_aadhaar_length">ᱟᱫᱷᱟᱨ ᱮᱞ ᱑᱒ ᱴᱤᱠ ᱛᱟᱦᱮᱸᱱ ᱞᱟᱹᱠᱛᱤ</string>
+    <string name="auth_failed_msg">ᱯᱚᱨᱠᱷᱟᱹᱣ ᱵᱟᱝ ᱦᱩᱭ ᱞᱮᱱᱟ: ᱛᱟᱹᱞᱠᱟᱹ ᱨᱮ ᱵᱟᱹᱱᱩᱜᱼᱟ᱾ ᱥᱩᱢᱩᱝ ᱯᱚᱨᱠᱷᱟᱹᱣ ᱟᱠᱟᱱ ᱟᱹᱫᱤᱵᱟᱹᱥᱤ ᱜᱤᱫᱽᱨᱟᱹ ᱞᱟᱹᱜᱤᱫ᱾</string>
+    <string name="access_denied_toast">ᱦᱚᱨ ᱵᱟᱝ ᱧᱟᱢ ᱞᱮᱱᱟ</string>
+    <string name="demo_credentials_title">ᱰᱮᱢᱚ ᱦᱤᱛᱟᱹᱫᱷᱤᱠᱟᱹᱨᱤ (ᱯᱮᱨᱮᱡ ᱞᱟᱹᱜᱤᱫ ᱞᱤᱸᱵᱟᱹᱭ ᱢᱮ)</string>
+    <string name="demo_credentials_subtitle">ᱥᱚᱨᱠᱟᱨᱤ ᱰᱮᱴᱟᱵᱮᱥ ᱨᱮᱭᱟᱜ ᱵᱤᱰᱟᱹᱣ ᱮᱠᱟᱣᱩᱱᱴ:</string>
+    <string name="fresh_applicant_badge">⭐ [ᱱᱟᱣᱟ ᱟᱨᱡᱤᱭᱟᱹ] </string>
+    <string name="loaded_credentials_toast">%s ᱟᱜ ᱛᱟᱹᱞᱠᱟᱹ ᱞᱚᱰ ᱮᱱᱟ</string>
+
+    <!-- Dashboard -->
+    <string name="sign_out">ᱵᱟᱦᱨᱮ ᱚᱰᱚᱠ</string>
+    <string name="dbt_enabled">✓ DBT ᱪᱟᱹᱞᱩ: ᱵᱮᱸᱠ: %1$s (%2$s) | NPCI ᱟᱫᱷᱟᱨ ᱵᱨᱤᱡᱽ ᱥᱟᱹᱛ</string>
+    <string name="dbt_failed">⚠ DBT ᱵᱟᱝ ᱦᱩᱭ ᱞᱮᱱᱟ: %s</string>
+    <string name="remediation_step">ᱥᱩᱫᱷᱟᱹᱨ ᱦᱚᱨ: %s</string>
+    <string name="unified_applications_title">ᱢᱤᱫᱩᱱ ᱟᱨᱡᱤ ᱠᱚ</string>
+    <string name="unified_applications_subtitle">NSP, SFMP ᱟᱨ NOS ᱯᱚᱨᱴᱟᱞ ᱨᱮ ᱧᱮᱞ</string>
+    <string name="btn_apply_scholarship">+ ᱥᱠᱚᱞᱟᱨᱥᱤᱯ ᱟᱨᱡᱤ</string>
+    <string name="empty_applications">ᱱᱤᱛ ᱫᱷᱟᱹᱵᱤᱡ ᱡᱟᱦᱟᱸᱱ ᱟᱨᱡᱤ ᱵᱟᱝ ᱮᱢ ᱟᱠᱟᱱᱟ᱾\nᱱᱟᱣᱟ ᱟᱨᱡᱤ ᱞᱟᱹᱜᱤᱫ ᱪᱮᱛᱟᱱ \'+ ᱥᱠᱚᱞᱟᱨᱥᱤᱯ ᱟᱨᱡᱤ\' ᱞᱤᱸᱵᱟᱹᱭ ᱢᱮ᱾</string>
+    <string name="digital_wallet_title">ᱰᱤᱡᱤᱴᱟᱞ ᱫᱚᱞᱤᱞ ᱣᱟᱞᱮᱴ (DigiLocker)</string>
+    <string name="zero_upload_model">ᱡᱤᱨᱚ-ᱟᱯᱞᱳᱰ ᱢᱚᱰᱮᱞ</string>
+    <string name="digital_wallet_subtitle">ᱯᱨᱤ-ᱢᱮᱴᱨᱤᱠ, ᱯᱳᱥᱴ-ᱢᱮᱴᱨᱤᱠ ᱟᱨ ᱯᱷᱮᱞᱳᱥᱤᱯ ᱞᱟᱹᱜᱤᱫ ᱯᱚᱨᱠᱷᱟᱹᱣ ᱥᱟᱠᱟᱢ</string>
+    <string name="empty_documents">ᱡᱟᱦᱟᱸᱱ ᱥᱟᱠᱟᱢ ᱵᱟᱝ ᱡᱚᱲᱟᱣ ᱟᱠᱟᱱᱟ᱾\nᱟᱨᱡᱤ ᱮᱢ ᱛᱟᱭᱚᱢ ᱱᱚᱸᱰᱮ ᱥᱟᱧᱪᱟᱣ ᱛᱟᱦᱮᱸᱱᱟ᱾</string>
+    <string name="data_refreshed_toast">ᱟᱨᱡᱤ ᱟᱨ ᱥᱟᱠᱟᱢ ᱠᱚ ᱥᱟᱧᱪᱟᱣ ᱮᱱᱟ!</string>
+    <string name="category_prefix">ᱛᱷᱚᱠ: %1$s • %2$s • ᱡᱟᱱᱟᱢ ᱢᱟᱹᱦᱤᱛ: %3$s</string>
+    <string name="pvtg_prefix">\nPVTG: %s</string>
+    <string name="institution_prefix">ᱵᱤᱨᱫᱟᱹᱜᱟᱲ: %1$s (%2$s)</string>
+    <string name="location_prefix">ᱴᱷᱟᱶ: %1$s, %2$s • ᱢᱳᱵᱟᱭᱤᱞ: %3$s</string>
+
+    <!-- Apply Scholarship Page -->
+    <string name="applicant_profile_title">ᱟᱨᱡᱤᱭᱟᱹ ᱩᱯᱨᱩᱢ (ᱟᱫᱷᱟᱨ OTR ᱛᱮ ᱯᱮᱨᱮᱡ)</string>
+    <string name="step1_title">ᱦᱟᱹᱴᱤᱧ ᱑: MoTA ᱥᱠᱚᱞᱟᱨᱥᱤᱯ ᱡᱚᱡᱚᱱᱟ ᱵᱟᱪᱷᱟᱣ *</string>
+    <string name="step1_subtitle">ᱟᱢᱟᱜ ᱡᱳᱜᱽᱭᱚᱛᱟ ᱞᱮᱠᱟᱛᱮ ᱥᱠᱚᱞᱟᱨᱥᱤᱯ ᱵᱟᱪᱷᱟᱣ ᱢᱮ:</string>
+    <string name="scheme_pre_matric">᱑. ST ᱜᱤᱫᱽᱨᱟᱹ ᱞᱟᱹᱜᱤᱫ ᱯᱨᱤ-ᱢᱮᱴᱨᱤᱠ ᱥᱠᱚᱞᱟᱨᱥᱤᱯ (ᱪᱟᱱᱟᱪ ᱙-᱑᱐)</string>
+    <string name="scheme_post_matric">᱒. ST ᱜᱤᱫᱽᱨᱟᱹ ᱞᱟᱹᱜᱤᱫ ᱯᱳᱥᱴ-ᱢᱮᱴᱨᱤᱠ ᱥᱠᱚᱞᱟᱨᱥᱤᱯ (ᱪᱟᱱᱟᱪ ᱑᱑ ᱠᱷᱚᱱ PG)</string>
+    <string name="scheme_top_class">᱓. ᱴᱚᱯ ᱠᱞᱟᱥ ᱥᱮᱪᱮᱫ ᱡᱚᱡᱚᱱᱟ (IIT/NIT/IIM/AIIMS)</string>
+    <string name="scheme_nfst">᱔. ᱪᱮᱛᱟᱱ ᱥᱮᱪᱮᱫ ᱞᱟᱹᱜᱤᱫ ᱡᱟᱹᱛᱤᱭᱟᱹᱨᱤ ᱯᱷᱮᱞᱳᱥᱤᱯ (NFST M.Phil/Ph.D)</string>
+    <string name="scheme_nos">᱕. ᱡᱟᱹᱛᱤᱭᱟᱹᱨᱤ ᱵᱤᱫᱮᱥ ᱥᱠᱚᱞᱟᱨᱥᱤᱯ (NOS ᱵᱤᱫᱮᱥ ᱵᱤᱨᱫᱟᱹᱜᱟᱲ ᱞᱟᱹᱜᱤᱫ)</string>
+    <string name="benefit_prefix">ᱞᱟᱵᱷ: %s</string>
+    <string name="eligibility_prefix">ᱡᱳᱜᱽᱭᱚᱛᱟ: %1$s\nᱴᱟᱨᱜᱮᱴ: %2$s</string>
+    <string name="registry_prefix">ᱯᱚᱨᱠᱷᱟᱹᱣ ᱜᱮᱴᱣᱮ: %1$s • ᱯᱚᱨᱴᱟᱞ: %2$s</string>
+
+    <string name="step2_title">ᱦᱟᱹᱴᱤᱧ ᱒: ᱡᱚᱡᱚᱱᱟ ᱵᱤᱵᱚᱨᱚᱱ</string>
+    <string name="step2_subtitle">ᱱᱚᱣᱟ ᱡᱚᱡᱚᱱᱟ ᱞᱟᱹᱜᱤᱫ ᱞᱟᱹᱠᱛᱤᱭᱟᱱ ᱥᱮᱪᱮᱫ ᱛᱟᱹᱞᱠᱟᱹ ᱚᱞ ᱢᱮ:</string>
+    <string name="hint_academic_year">ᱥᱮᱪᱮᱫ ᱥᱮᱨᱢᱟ (ᱡᱮᱞᱮᱠ 2026-2027) *</string>
+    <string name="hint_family_income">ᱥᱮᱨᱢᱟᱠᱤᱭᱟᱹ ᱜᱷᱟᱨᱚᱸᱡᱽ ᱟᱨᱡᱟᱣ ₹ ᱨᱮ *</string>
+    <string name="hint_udise_code">ᱟᱥᱲᱟ UDISE+ ᱠᱳᱰ</string>
+    <string name="hint_class_level">ᱱᱤᱛᱚᱜᱟᱜ ᱪᱟᱱᱟᱪ (ᱪᱟᱱᱟᱪ ᱙ ᱥᱮ ᱑᱐)</string>
+    <string name="hint_hostel_type">ᱦᱳᱥᱴᱮᱞᱟᱨ ᱥᱮ ᱰᱮ-ᱥᱠᱳᱞᱟᱨ?</string>
+    <string name="hint_post_matric_aishe">ᱠᱚᱞᱮᱡᱽ AISHE ᱠᱳᱰ</string>
+    <string name="hint_course_year">ᱠᱳᱨᱥ ᱟᱨ ᱯᱟᱲᱦᱟᱣ ᱥᱮᱨᱢᱟ</string>
+    <string name="hint_apaar_id">APAAR ᱯᱟᱹᱴᱷᱩᱣᱟᱹ ID / ABC ID</string>
+    <string name="hint_top_institute_name">ᱪᱮᱛᱟᱱ ᱵᱤᱨᱫᱟᱹᱜᱟᱲ ᱧᱩᱛᱩᱢ</string>
+    <string name="hint_entrance_rank">ᱵᱤᱱᱤᱰ ᱟᱨ AIR ᱨᱮᱸᱠ</string>
+    <string name="hint_tuition_claim">ᱥᱮᱨᱢᱟᱠᱤᱭᱟᱹ ᱯᱷᱤ (₹ ᱨᱮ)</string>
+    <string name="hint_net_roll_no">UGC-NET / CSIR-NET ᱨᱳᱞ ᱮᱞ</string>
+    <string name="hint_research_topic">Ph.D ᱠᱷᱚᱸᱫᱽᱨᱚᱸᱫᱽ ᱥᱟᱛᱟᱢ</string>
+    <string name="hint_phd_reg_date">Ph.D ᱨᱮᱡᱤᱥᱴᱨᱮᱥᱚᱱ ᱢᱟᱹᱦᱤᱛ (dd-mm-yyyy)</string>
+    <string name="hint_foreign_uni">ᱵᱤᱫᱮᱥ ᱵᱤᱨᱫᱟᱹᱜᱟᱲ ᱧᱩᱛᱩᱢ</string>
+    <string name="hint_foreign_course">ᱵᱤᱫᱮᱥ ᱠᱳᱨᱥ ᱛᱷᱚᱠ ᱟᱨ ᱥᱟᱛᱟᱢ</string>
+    <string name="hint_passport_num">ᱯᱟᱥᱯᱳᱨᱴ ᱮᱞ</string>
+
+    <string name="step3_title">ᱦᱟᱹᱴᱤᱧ ᱓: ᱥᱟᱠᱟᱢ ᱯᱚᱨᱠᱷᱟᱹᱣ ᱟᱨ ᱟᱯᱞᱳᱰ *</string>
+    <string name="step3_subtitle">ᱱᱚᱣᱟ ᱡᱚᱡᱚᱱᱟ ᱞᱟᱹᱜᱤᱫ ᱥᱟᱠᱟᱢ ᱮᱢ ᱢᱮ:</string>
+    <string name="doc1_caste_title">᱑. ST / PVTG ᱡᱟᱹᱛᱤ ᱥᱟᱠᱟᱢ *</string>
+    <string name="hint_caste_cert_no">ᱡᱟᱹᱛᱤ ᱥᱟᱠᱟᱢ ᱮᱞ</string>
+    <string name="btn_upload_pdf">PDF ᱟᱯᱞᱳᱰ</string>
+    <string name="no_file_attached">ᱡᱟᱦᱟᱸᱱ ᱯᱷᱟᱭᱤᱞ ᱵᱟᱝ ᱵᱟᱪᱷᱟᱣ ᱟᱠᱟᱱᱟ</string>
+    <string name="doc_income_pre_matric">᱒. ᱜᱷᱟᱨᱚᱸᱡᱽ ᱟᱨᱡᱟᱣ ᱥᱟᱠᱟᱢ (&lt;= ₹ 2.50L) *</string>
+    <string name="doc_acad_pre_matric">᱓. ᱢᱟᱲᱟᱝ ᱪᱟᱱᱟᱪ ᱢᱟᱨᱠᱥᱤᱴ ᱥᱮ ᱵᱳᱱᱟᱯᱷᱟᱭᱤᱰ *</string>
+    <string name="doc_income_post_matric">᱒. ᱜᱷᱟᱨᱚᱸᱡᱽ ᱟᱨᱡᱟᱣ ᱥᱟᱠᱟᱢ (&lt;= ₹ 2.50L) *</string>
+    <string name="doc_acad_post_matric">᱓. ᱑᱐ ᱟᱱᱟᱜ ᱵᱳᱨᱰ ᱢᱟᱨᱠᱥᱤᱴ ᱟᱨ APAAR *</string>
+    <string name="doc_income_top_class">᱒. ᱟᱨᱡᱟᱣ ᱥᱟᱠᱟᱢ (&lt;= ₹ 6.00L) *</string>
+    <string name="doc_acad_top_class">᱓. ᱵᱷᱩᱨᱛᱤ ᱥᱟᱠᱟᱢ / ᱯᱷᱤ ᱵᱤᱵᱚᱨᱚᱱ *</string>
+    <string name="doc_income_nfst">᱒. Ph.D ᱵᱷᱩᱨᱛᱤ ᱥᱟᱠᱟᱢ *</string>
+    <string name="doc_acad_nfst">᱓. UGC-NET / JRF ᱥᱠᱳᱨᱠᱟᱨᱰ *</string>
+    <string name="doc_income_nos">᱒. ᱢᱩᱴᱷ ᱜᱷᱟᱨᱚᱸᱡᱽ ᱟᱨᱡᱟᱣ ᱥᱟᱠᱟᱢ (&lt;= ₹ 8.00 Lakh) *</string>
+    <string name="doc_acad_nos">᱓. ᱵᱤᱫᱮᱥ ᱵᱤᱨᱫᱟᱹᱜᱟᱲ ᱚᱯᱷᱚᱨ ᱥᱟᱠᱟᱢ ᱟᱨ ᱯᱟᱥᱯᱳᱨᱴ *</string>
+
+    <string name="digilocker_consent_text">ᱤᱧᱤᱧ ᱞᱟᱹᱭ ᱥᱚᱫᱚᱨᱮᱫᱼᱟ ᱡᱮ ᱪᱮᱛᱟᱱ ᱨᱮᱭᱟᱜ ᱡᱚᱛᱚ ᱠᱟᱛᱷᱟ ᱥᱟᱹᱨᱤ ᱜᱮᱭᱟ ᱟᱨ DigiLocker/APAAR ᱛᱮ ᱯᱚᱨᱠᱷᱟᱹᱣ ᱨᱮ ᱤᱧᱟᱜ ᱦᱮᱸ ᱢᱮᱱᱟᱜᱼᱟ᱾</string>
+    <string name="digilocker_consent_subtext">MoTA ᱟᱹᱨᱤ ᱟᱨ DPDP ᱟᱹᱭᱤᱱ ᱒᱐᱒᱓ ᱞᱮᱠᱟᱛᱮ᱾ ᱵᱟᱹᱲᱤᱡ ᱛᱮᱛᱮᱫ ᱮᱢ ᱞᱮᱠᱷᱟᱱ ᱟᱨᱡᱤ ᱨᱟᱹᱫᱽ ᱫᱟᱲᱮᱭᱟᱜᱼᱟ᱾</string>
+    <string name="dedup_existing_app">ᱵᱟᱰᱟᱭ ᱡᱚᱝ: ᱱᱚᱣᱟ ᱡᱚᱡᱚᱱᱟ ᱞᱟᱹᱜᱤᱫ ᱢᱟᱲᱟᱝ ᱠᱷᱚᱱ ᱟᱨᱡᱤ ᱮᱢ ᱟᱠᱟᱱᱟ᱾</string>
+    <string name="dedup_conflict_fellowship">ᱟᱹᱨᱤ: ᱮᱴᱟᱜ ᱯᱷᱮᱞᱳᱥᱤᱯ ᱢᱮᱱᱟᱜ ᱠᱷᱟᱹᱛᱤᱨ ᱯᱨᱤ/ᱯᱳᱥᱴ-ᱢᱮᱴᱨᱤᱠ ᱟᱨᱡᱤ ᱵᱟᱝ ᱦᱩᱭᱩᱜᱼᱟ᱾</string>
+    <string name="btn_submit_application">ᱡᱚᱡᱚᱱᱟ ᱟᱨᱡᱤ ᱮᱢ ᱢᱮ</string>
+
+    <!-- Dialogs & Validations -->
+    <string name="warn_select_scheme">ᱫᱟᱭᱟᱠᱟᱛᱮ ᱢᱤᱫᱴᱟᱝ ᱡᱚᱡᱚᱱᱟ ᱵᱟᱪᱷᱟᱣ ᱢᱮ</string>
+    <string name="warn_enter_ay">ᱫᱟᱭᱟᱠᱟᱛᱮ ᱥᱮᱪᱮᱫ ᱥᱮᱨᱢᱟ ᱚᱞ ᱢᱮ</string>
+    <string name="warn_enter_income">ᱫᱟᱭᱟᱠᱟᱛᱮ ᱜᱷᱟᱨᱚᱸᱡᱽ ᱟᱨᱡᱟᱣ ᱚᱞ ᱢᱮ</string>
+    <string name="warn_enter_caste_no">ᱫᱟᱭᱟᱠᱟᱛᱮ ᱡᱟᱹᱛᱤ ᱥᱟᱠᱟᱢ ᱮᱞ ᱚᱞ ᱢᱮ</string>
+    <string name="warn_select_caste_file">ᱫᱟᱭᱟᱠᱟᱛᱮ ᱡᱟᱹᱛᱤ ᱥᱟᱠᱟᱢ ᱯᱷᱟᱭᱤᱞ ᱵᱟᱪᱷᱟᱣ ᱢᱮ</string>
+    <string name="warn_enter_income_no">ᱫᱟᱭᱟᱠᱟᱛᱮ ᱟᱨᱡᱟᱣ ᱥᱟᱠᱟᱢ ᱮᱞ ᱚᱞ ᱢᱮ</string>
+    <string name="warn_select_income_file">ᱫᱟᱭᱟᱠᱟᱛᱮ ᱟᱨᱡᱟᱣ ᱥᱟᱠᱟᱢ ᱯᱷᱟᱭᱤᱞ ᱵᱟᱪᱷᱟᱣ ᱢᱮ</string>
+    <string name="warn_enter_doc3_no">ᱫᱟᱭᱟᱠᱟᱛᱮ ᱓ ᱟᱱᱟᱜ ᱥᱟᱠᱟᱢ ᱮᱞ ᱚᱞ ᱢᱮ</string>
+    <string name="warn_select_doc3_file">ᱫᱟᱭᱟᱠᱟᱛᱮ ᱥᱮᱪᱮᱫ ᱥᱟᱠᱟᱢ ᱯᱷᱟᱭᱤᱞ ᱵᱟᱪᱷᱟᱣ ᱢᱮ</string>
+    <string name="warn_check_consent">ᱫᱟᱭᱟᱠᱟᱛᱮ ᱴᱤᱠ ᱪᱤᱱᱦᱟᱹ ᱮᱢ ᱢᱮ</string>
+    <string name="submission_success_title">✅ ᱟᱨᱡᱤ ᱥᱟᱹᱛ ᱮᱱᱟ!</string>
+    <string name="submission_success_msg">MoTA ᱯᱚᱨᱴᱟᱞ:\n\n• ᱡᱚᱡᱚᱱᱟ: %1$s\n• ᱟᱨᱡᱤ ID: %2$s\n• ᱛᱷᱚᱠ: ᱮᱢ ᱮᱱᱟ — ᱵᱤᱨᱫᱟᱹᱜᱟᱲ ᱯᱚᱨᱠᱷᱟᱹᱣ ᱵᱟᱹᱠᱤ\n• ᱓ ᱜᱚᱴᱟᱝ ᱥᱟᱠᱟᱢ ᱥᱟᱧᱪᱟᱣ ᱮᱱᱟ\n\nᱰᱮᱥᱵᱚᱨᱰ ᱨᱮ ᱱᱚᱣᱟ ᱧᱮᱞ ᱫᱟᱲᱮᱭᱟᱜᱼᱟ᱾</string>
+    <string name="btn_go_to_dashboard">ᱰᱮᱥᱵᱚᱨᱰ ᱪᱟᱞᱟᱜ ᱢᱮ</string>
+
+    <!-- Adapters & Cards -->
+    <string name="lifecycle_progress">᱖-ᱦᱟᱹᱴᱤᱧ ᱞᱟᱦᱟᱱᱛᱤ:</string>
+    <string name="current_stage_label">ᱱᱤᱛᱚᱜᱟᱜ ᱦᱟᱹᱴᱤᱧ: </string>
+    <string name="sanction_amount_label">ᱢᱚᱧᱡᱩᱨ ᱴᱟᱠᱟ: </string>
+    <string name="ref_id_label">ᱨᱮᱯᱷᱟᱨᱮᱱᱥ ID: %1$s (%2$s)</string>
+    <string name="app_meta_format">ᱟᱨᱡᱤ ID: %1$s • ᱥᱮᱨᱢᱟ %2$s • %3$s</string>
+    <string name="zero_reupload_badge">♻ ᱫᱚᱦᱲᱟ-ᱟᱯᱞᱳᱰ ᱵᱟᱹᱱᱩᱜ</string>
+    <string name="cert_id_prefix">ᱥᱟᱠᱟᱢ ID: %s</string>
+    <string name="authority_prefix">ᱮᱢᱤᱭᱟᱹ: %1$s • ᱢᱟᱹᱦᱤᱛ: %2$s</string>
+    <string name="doc_stored_in_app">💾 ᱮᱯ ᱨᱮᱱᱟᱜ ᱵᱷᱳᱞᱴ ᱨᱮ ᱥᱟᱧᱪᱟᱣ</string>
+    <string name="btn_view_document">👁 ᱥᱟᱠᱟᱢ ᱧᱮᱞ</string>
+
+    <!-- Lifecycle 6 Stages -->
+    <string name="stage_submission">ᱮᱢ ᱮᱱᱟ</string>
+    <string name="stage_inst_verification">ᱵᱤᱨᱫᱟᱹᱜᱟᱲ ᱯᱚᱨᱠᱷᱟᱹᱣ</string>
+    <string name="stage_dist_approval">ᱡᱤᱞᱞᱟᱹ/ᱯᱚᱱᱚᱛ ᱢᱚᱧᱡᱩᱨ</string>
+    <string name="stage_mota_sanction">MoTA ᱢᱚᱧᱡᱩᱨ</string>
+    <string name="stage_pfms_dbt">PFMS/SFMP DBT ᱵᱮᱱᱟᱣ</string>
+    <string name="stage_bank_credit">ᱵᱮᱸᱠ ᱮᱠᱟᱣᱩᱱᱴ ᱨᱮ ᱡᱚᱢᱟ</string>
+</resources>

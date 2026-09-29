@@ -1,0 +1,28 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme with Material 3 -->
+    <style name="Theme.MoTAScholarship" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary brand color -->
+        <item name="colorPrimary">@color/mota_primary</item>
+        <item name="colorOnPrimary">@color/mota_on_primary</item>
+        <item name="colorPrimaryContainer">@color/mota_primary_container</item>
+        <item name="colorOnPrimaryContainer">@color/mota_on_primary_container</item>
+        
+        <!-- Secondary brand color -->
+        <item name="colorSecondary">@color/mota_secondary</item>
+        <item name="colorOnSecondary">@color/mota_on_secondary</item>
+        <item name="colorSecondaryContainer">@color/mota_secondary_container</item>
+        <item name="colorOnSecondaryContainer">@color/mota_on_secondary_container</item>
+
+        <!-- Surface and background colors -->
+        <item name="android:colorBackground">@color/mota_surface</item>
+        <item name="colorSurface">@color/mota_surface</item>
+        <item name="colorOnSurface">@color/mota_on_surface</item>
+        <item name="colorSurfaceVariant">@color/mota_surface_variant</item>
+        <item name="colorOnSurfaceVariant">@color/mota_on_surface_variant</item>
+        <item name="colorOutline">@color/mota_outline</item>
+
+        <!-- Status bar color -->
+        <item name="android:statusBarColor">@color/mota_primary</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+</resources>

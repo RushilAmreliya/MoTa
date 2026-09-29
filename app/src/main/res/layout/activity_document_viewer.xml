@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/mota_surface">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/toolbarDocViewer"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/mota_primary"
+        app:titleTextColor="@color/white"
+        app:subtitleTextColor="#C2E2CB"
+        app:navigationIcon="@android:drawable/ic_menu_revert"
+        app:title="Document Viewer" />
+
+    <!-- Info Banner -->
+    <LinearLayout
+        android:id="@+id/llDocInfoBanner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#E8F5E9"
+        android:padding="12dp">
+
+        <TextView
+            android:id="@+id/tvDocViewerTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Document Title"
+            android:textColor="@color/mota_on_surface"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvDocViewerMeta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Certificate Number • Authority"
+            android:textColor="@color/mota_on_surface_variant"
+            android:textSize="12sp"
+            android:layout_marginTop="2dp" />
+
+        <TextView
+            android:id="@+id/tvDocViewerStoragePath"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Stored at: /files/documents/..."
+            android:textColor="@color/mota_primary"
+            android:textSize="11sp"
+            android:layout_marginTop="3dp" />
+    </LinearLayout>
+
+    <!-- Main Container: Either renders Image or PDF render, or PDF Fallback actions -->
+    <FrameLayout
+        android:id="@+id/flPreviewContainer"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#1E1E1E">
+
+        <!-- Image Viewer (for JPEG, PNG, etc.) -->
+        <ScrollView
+            android:id="@+id/svImageContainer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/ivDocPreview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:contentDescription="Document Preview" />
+        </ScrollView>
+
+        <!-- PDF First Page View (rendered via PdfRenderer) -->
+        <ScrollView
+            android:id="@+id/svPdfContainer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center_horizontal"
+                android:padding="12dp">
+
+                <ImageView
+                    android:id="@+id/ivPdfPagePreview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitCenter"
+                    android:background="@color/white"
+                    android:elevation="4dp"
+                    android:contentDescription="PDF Page Preview" />
+
+                <TextView
+                    android:id="@+id/tvPdfPageCount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Page 1 of 1"
+                    android:textColor="@color/white"
+                    android:textSize="12sp"
+                    android:layout_marginTop="8dp" />
+            </LinearLayout>
+        </ScrollView>
+
+        <!-- Fallback Placeholder when file cannot be rendered natively -->
+        <LinearLayout
+            android:id="@+id/llFallbackView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="24dp"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="📄"
+                android:textSize="48sp" />
+
+            <TextView
+                android:id="@+id/tvFallbackNotice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Secure PDF Document"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_marginTop="12dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="This file is safely stored in your in-app vault."
+                android:textColor="#C2E2CB"
+                android:textSize="13sp"
+                android:layout_marginTop="6dp" />
+        </LinearLayout>
+    </FrameLayout>
+
+    <!-- Bottom Actions Bar -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="12dp"
+        android:background="@color/white"
+        android:elevation="8dp">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnOpenExternal"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Open in System App"
+            android:textSize="13sp"
+            app:cornerRadius="8dp"
+            android:backgroundTint="@color/mota_primary" />
+    </LinearLayout>
+
+</LinearLayout>
