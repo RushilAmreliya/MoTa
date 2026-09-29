@@ -1,5 +1,18 @@
 # MoTA Unified Scholarship Android App
 
+[![Download APK](https://img.shields.io/badge/Download-MoTA%20Scholarship%20APK-brightgreen?style=for-the-badge&logo=android)](https://github.com/RushilAmreliya/MoTa/raw/main/release/MoTA-Scholarship-Portal.apk)
+[![GitHub Releases](https://img.shields.io/badge/GitHub-Releases%20Page-blue?style=for-the-badge&logo=github)](https://github.com/RushilAmreliya/MoTa/releases)
+
+---
+
+### 📥 **DOWNLOAD APK DIRECTLY TO YOUR PHONE**
+> **Click here to download the app directly:**  
+> 👉 **[DOWNLOAD MoTA-Scholarship-Portal.apk (~6 MB)](https://github.com/RushilAmreliya/MoTa/raw/main/release/MoTA-Scholarship-Portal.apk)**  
+> 
+> *Once downloaded on any Android phone (Android 7.0+), simply tap the file to install and open. It runs immediately with full offline student accounts and AI features.*
+
+---
+
 An Android application built strictly adhering to the requirements of:
 - [MoTA_Scholarship_Platform_PRD.md](MoTA_Scholarship_Platform_PRD.md)
 - [MoTA_Scholarship_Tech_Stack_Doc.md](MoTA_Scholarship_Tech_Stack_Doc.md)
